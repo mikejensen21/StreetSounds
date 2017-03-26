@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{50d5ecc5-8a79-4b40-9904-927570d3917d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.43485260770975059</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/railExit3 {51e25252-859f-40e1-89d3-e6d98c99f136}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{105ae3b0-8fa7-4fc3-b49c-656acee432a8}</destination>
+        </relationship>
+    </object>
+</objects>

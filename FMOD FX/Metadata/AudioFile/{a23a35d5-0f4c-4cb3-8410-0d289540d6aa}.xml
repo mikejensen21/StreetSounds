@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{a23a35d5-0f4c-4cb3-8410-0d289540d6aa}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.20936507936507937</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ledgeExit4 {b415bd2b-c1db-4ab4-a2eb-e8f9f22cecc8}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{a6064af8-2b1e-4ff6-82ef-67374cddc788}</destination>
+        </relationship>
+    </object>
+</objects>

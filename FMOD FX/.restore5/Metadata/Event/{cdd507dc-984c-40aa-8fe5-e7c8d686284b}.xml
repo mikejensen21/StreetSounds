@@ -68,7 +68,7 @@
             <destination>{1ec54496-bb64-4a86-9ad0-0821bf2c191d}</destination>
         </relationship>
         <relationship name="modules">
-            <destination>{bfdee040-4eb4-4b13-bfea-9f796eb14b50}</destination>
+            <destination>{cbc26c48-99f9-4f84-b71f-45871a4e43d5}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{50d0da4d-3ba8-42d6-b754-1718cdc21431}</destination>
@@ -76,7 +76,7 @@
     </object>
     <object class="Timeline" id="{ec80930b-dbc9-4381-95b6-cb6405167b63}">
         <relationship name="modules">
-            <destination>{bfdee040-4eb4-4b13-bfea-9f796eb14b50}</destination>
+            <destination>{cbc26c48-99f9-4f84-b71f-45871a4e43d5}</destination>
         </relationship>
         <relationship name="automationCurves">
             <destination>{884192df-a316-4165-b766-af60e0f3d064}</destination>
@@ -144,30 +144,15 @@
             <destination>{698e065e-48d8-413b-a790-5527317f6b61}</destination>
         </relationship>
     </object>
-    <object class="MultiSound" id="{bfdee040-4eb4-4b13-bfea-9f796eb14b50}">
+    <object class="SingleSound" id="{cbc26c48-99f9-4f84-b71f-45871a4e43d5}">
         <property name="start">
             <value>0</value>
         </property>
         <property name="length">
-            <value>0.26500000000000001</value>
+            <value>0.40000000000000002</value>
         </property>
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
-        <property name="pitch">
-            <value>-0.5</value>
-        </property>
-        <property name="looping">
-            <value>true</value>
-        </property>
-        <relationship name="modulators">
-            <destination>{9989c6ac-a2eb-4925-b423-1e612a65a69e}</destination>
-        </relationship>
-        <relationship name="sounds">
-            <destination>{a295c077-6439-488e-a6c2-45af7601aeb2}</destination>
-            <destination>{4216ffe1-17da-40c6-8d12-a80f24a6dcee}</destination>
-            <destination>{0aab35cf-35dc-4e3f-8d2e-08a69154f59c}</destination>
-            <destination>{effc2cec-da47-4010-93ee-e1ace46aafb9}</destination>
+        <relationship name="audioFile">
+            <destination>{89bef63c-4140-46b8-b767-b8d3ce5b4be9}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{50d0da4d-3ba8-42d6-b754-1718cdc21431}">
@@ -211,34 +196,6 @@
     </object>
     <object class="MixerBusPanner" id="{390953b8-77a9-4aa4-9456-e4b6e081b9d3}"/>
     <object class="MixerBusFader" id="{a76a27dd-8ac6-4fc0-a11f-4d28a4d68e3b}"/>
-    <object class="RandomizerModulator" id="{9989c6ac-a2eb-4925-b423-1e612a65a69e}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>pitch</value>
-        </property>
-        <property name="amount">
-            <value>2.10000014</value>
-        </property>
-    </object>
-    <object class="SingleSound" id="{a295c077-6439-488e-a6c2-45af7601aeb2}">
-        <relationship name="audioFile">
-            <destination>{50d5ecc5-8a79-4b40-9904-927570d3917d}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{4216ffe1-17da-40c6-8d12-a80f24a6dcee}">
-        <relationship name="audioFile">
-            <destination>{80387c14-bd1e-434a-a465-bb5790ed99b5}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{0aab35cf-35dc-4e3f-8d2e-08a69154f59c}">
-        <relationship name="audioFile">
-            <destination>{aedea5a3-bade-4503-94b3-5f66c051cb52}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{effc2cec-da47-4010-93ee-e1ace46aafb9}">
-        <relationship name="audioFile">
-            <destination>{3fb92c8e-98ec-4dc8-82ae-ba28c5771bca}</destination>
-        </relationship>
-    </object>
     <object class="MixerBusEffectChain" id="{c8569379-5e8f-4fc5-bb1a-9c1f092f7200}">
         <relationship name="effects">
             <destination>{51bba3f1-6981-4376-940c-233d269e0a4c}</destination>
@@ -369,6 +326,7 @@
         <property name="name">
             <value>FFT size</value>
         </property>
+        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(7.186666,256.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(10.698667,4096.000000)}</value>
         </property>
@@ -383,6 +341,7 @@
         <property name="name">
             <value>Overlap</value>
         </property>
+        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(4.400000,32.000000)}</value>
         </property>
