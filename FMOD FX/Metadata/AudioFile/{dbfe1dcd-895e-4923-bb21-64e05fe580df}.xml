@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{dbfe1dcd-895e-4923-bb21-64e05fe580df}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.1766439909297053</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/landing2wheel2 {e35acb9f-e086-444d-b5e9-715fc9682def}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9fb17272-4090-4b10-b5ec-cda9c174fc46}</destination>
+        </relationship>
+    </object>
+</objects>

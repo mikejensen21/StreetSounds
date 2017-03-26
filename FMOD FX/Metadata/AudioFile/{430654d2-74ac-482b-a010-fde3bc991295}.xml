@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{430654d2-74ac-482b-a010-fde3bc991295}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.85571428571428576</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/foot2pedal5 {6310b490-56dc-44a8-965b-9b0e103bb458}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{28931f6b-af0f-481e-b89b-e4f861dba321}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{fe0af47a-cf63-45a0-ad9b-a59afc43e927}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.7332879818594105</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/rail_impact 14-Audio {ba9e3538-c9ff-4cf0-a110-8f0dd462f460}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{797f53e4-9fa4-4c77-b293-0c0b28997f65}</destination>
+        </relationship>
+    </object>
+</objects>

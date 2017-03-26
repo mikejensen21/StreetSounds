@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{c5469c8d-d20e-4ea5-a05b-50c5130f4d15}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.380702947845805</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/dp_rail_slide 17-Audio {312a479d-3ca0-4787-bbd7-0645f180c1b5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{3c3a0567-1a47-4186-80b7-742452da72c4}</destination>
+        </relationship>
+    </object>
+</objects>

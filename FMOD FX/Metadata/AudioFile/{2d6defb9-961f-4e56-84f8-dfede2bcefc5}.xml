@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{2d6defb9-961f-4e56-84f8-dfede2bcefc5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.72385487528344672</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ledge_impact14 {e6880548-7190-460d-9da2-0f0d9a5a207d}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{03fab6bc-ee37-4e76-bbce-b89c12dff075}</destination>
+        </relationship>
+    </object>
+</objects>

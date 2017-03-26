@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{62409d34-5bf1-43bc-a000-f1d1181ea58a}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.0757596371882086</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/slowSlide4 {8697a573-9a45-430d-a890-a938a2fdd3a2}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d1ac42b1-28df-493c-bb04-91a8cfbc8609}</destination>
+        </relationship>
+    </object>
+</objects>
