@@ -18,7 +18,7 @@
             <value>0.054200542005420058</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.027100271002710029</value>
+            <value>0.024896265560165973</value>
         </property>
     </object>
     <object class="GameParameter" id="{04a38792-79e0-4913-8bf0-b71ee68aeae6}">
@@ -26,7 +26,7 @@
             <value>0.072267389340560068</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0090334236675700084</value>
+            <value>0.0082987551867219917</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{372b461e-b420-4ab0-abdf-f8548f007619}">

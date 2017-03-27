@@ -18,7 +18,7 @@
             <value>1.4236410698878343</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.025884383088869714</value>
+            <value>0.024896265560165973</value>
         </property>
     </object>
     <object class="GameParameter" id="{09f3b23f-053c-4b7b-93a0-dfc2d2e9c7ab}">
@@ -26,10 +26,7 @@
             <value>0.18981880931837791</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0086281276962899053</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>52</value>
+            <value>0.0082987551867219917</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{461374d3-d23b-431d-a9c9-e80b4d676a12}">
