@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{1cc1f5c7-14ce-43a9-a4df-3bfce12e8169}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.8696371882086168</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/takeoff5 {8352d622-5052-4272-bfd4-a924ff63ddb9}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{fd4f21f3-d5c4-44a3-a350-03645140ceeb}</destination>
+        </relationship>
+    </object>
+</objects>
