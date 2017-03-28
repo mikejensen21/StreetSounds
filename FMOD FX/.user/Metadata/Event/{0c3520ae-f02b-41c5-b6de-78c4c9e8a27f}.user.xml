@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{0c3520ae-f02b-41c5-b6de-78c4c9e8a27f}">
+        <relationship name="selectables">
+            <destination>{97c274c0-561b-44c4-a894-12069bfbda1a}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{de1fc451-6ba6-4e71-a98b-96bc7f014412}</destination>
         </relationship>
@@ -18,6 +21,11 @@
             <value>0.024896265560165973</value>
         </property>
     </object>
+    <object class="GameParameter" id="{959e6148-e044-45b1-9bda-1f7740a68898}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082987551867219917</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{8c2d6b55-4d40-4366-86a0-7d2801892c03}">
         <relationship name="input">
             <destination>{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}</destination>
@@ -25,6 +33,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{7794d057-6aca-415b-8e4f-6a681147bf74}"/>
     <object class="MixerBusPanner" id="{a2d72b38-76c4-4e1d-9b07-903bf922f78e}"/>
+    <object class="SingleSound" id="{97c274c0-561b-44c4-a894-12069bfbda1a}"/>
     <object class="EventMixerGroup" id="{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}"/>
     <object class="MixerBusEffectChain" id="{742ec4cd-b7c6-4b78-a30b-586369929d68}"/>
     <object class="MixerBusPanner" id="{e3fce028-50d7-4244-b620-d3bf7cc41f07}"/>

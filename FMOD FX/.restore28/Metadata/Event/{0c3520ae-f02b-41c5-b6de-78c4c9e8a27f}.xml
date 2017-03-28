@@ -62,18 +62,11 @@
     <object class="EventAutomatableProperties" id="{080384ef-7b58-4eae-bbc5-d8d968b89b58}"/>
     <object class="MarkerTrack" id="{e6df9708-369e-496e-844d-f16354ca40e8}"/>
     <object class="GroupTrack" id="{fa0f87a8-e6e2-435a-ab3b-39eaee159002}">
-        <relationship name="modules">
-            <destination>{97c274c0-561b-44c4-a894-12069bfbda1a}</destination>
-        </relationship>
         <relationship name="mixerGroup">
             <destination>{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{de1fc451-6ba6-4e71-a98b-96bc7f014412}">
-        <relationship name="modules">
-            <destination>{97c274c0-561b-44c4-a894-12069bfbda1a}</destination>
-        </relationship>
-    </object>
+    <object class="Timeline" id="{de1fc451-6ba6-4e71-a98b-96bc7f014412}"/>
     <object class="GameParameter" id="{959e6148-e044-45b1-9bda-1f7740a68898}">
         <property name="name">
             <value>Velocity</value>
@@ -99,14 +92,6 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{a2d72b38-76c4-4e1d-9b07-903bf922f78e}"/>
-    <object class="SingleSound" id="{97c274c0-561b-44c4-a894-12069bfbda1a}">
-        <property name="start">
-            <value>0</value>
-        </property>
-        <property name="length">
-            <value>2</value>
-        </property>
-    </object>
     <object class="EventMixerGroup" id="{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}">
         <property name="name">
             <value>Audio 1</value>
