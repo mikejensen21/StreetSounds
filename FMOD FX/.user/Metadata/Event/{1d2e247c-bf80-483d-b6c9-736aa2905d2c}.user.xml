@@ -20,7 +20,7 @@
     </object>
     <object class="GameParameter" id="{6ac28218-39d6-4ab5-a1a6-29c0ff11b652}">
         <property name="cursorPosition">
-            <value>0.82157676348547715</value>
+            <value>4.3236514522821574</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082987551867219917</value>
@@ -44,10 +44,9 @@
     <object class="MixerBusFader" id="{77bcca7f-4767-4f18-91a2-b8f955c71d18}"/>
     <object class="SingleSound" id="{45c2396c-0797-4dc0-a57d-777d6977e7ca}"/>
     <object class="SingleSound" id="{ede8dc6b-e709-446b-8015-e050cec993c9}"/>
-    <object class="SingleSound" id="{f276d351-77ec-4c2c-b654-4e50811da158}"/>
     <object class="SingleSound" id="{c723381b-8cd4-4313-a867-990a5cef25c0}"/>
     <object class="SingleSound" id="{7219f7d2-c959-47c1-b234-664d06c7cbde}"/>
-    <object class="SingleSound" id="{f75c2824-3bfb-4381-9cc0-4548f42d99b6}"/>
+    <object class="SingleSound" id="{feb7f8bc-a76d-438b-a74f-8605c24e3700}"/>
     <object class="MixerBusEffectChain" id="{c4d7a499-60f7-412d-828f-205b3cd39e32}"/>
     <object class="MixerBusPanner" id="{4ecae902-4bd3-4da3-bdb6-569e3c4a858c}"/>
     <object class="MixerBusFader" id="{352b2e17-599f-4730-aa3e-4c5be86e40bd}"/>
