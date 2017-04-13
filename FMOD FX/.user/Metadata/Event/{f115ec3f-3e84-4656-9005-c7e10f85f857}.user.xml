@@ -28,10 +28,13 @@
     </object>
     <object class="GameParameter" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="cursorPosition">
-            <value>0.40663900414937759</value>
+            <value>1.8340248962655601</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082987551867219917</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>232</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
