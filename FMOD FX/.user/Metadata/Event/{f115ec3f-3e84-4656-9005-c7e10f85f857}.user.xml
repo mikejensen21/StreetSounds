@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
+        <relationship name="selectables">
+            <destination>{195fdd75-d0ef-4890-8ace-a972c069705e}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{96f9ecbd-632c-4625-aa49-58318427531e}</destination>
         </relationship>
@@ -28,13 +31,10 @@
     </object>
     <object class="GameParameter" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="cursorPosition">
-            <value>1.8340248962655601</value>
+            <value>0.9543568464730291</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082987551867219917</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>232</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
@@ -47,6 +47,9 @@
     <object class="MixerBusPanner" id="{dc317fce-5c42-4245-b88d-fb63c9ef8cf4}"/>
     <object class="SingleSound" id="{195fdd75-d0ef-4890-8ace-a972c069705e}">
         <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+        <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>

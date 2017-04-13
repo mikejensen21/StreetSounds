@@ -128,9 +128,6 @@
         <property name="length">
             <value>2.8600000000000003</value>
         </property>
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
         <property name="volume">
             <value>-14.5</value>
         </property>
@@ -158,7 +155,7 @@
             <value>5.3300000000000001</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="pitch">
             <value>-0.5</value>
