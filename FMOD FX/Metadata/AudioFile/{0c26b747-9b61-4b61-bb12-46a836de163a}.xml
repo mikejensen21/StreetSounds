@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
-    <object class="AudioFile" id="{10f07d24-ff46-4c54-8915-7618a4b0e723}">
+    <object class="AudioFile" id="{0c26b747-9b61-4b61-bb12-46a836de163a}">
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -8,13 +8,13 @@
             <value>2</value>
         </property>
         <property name="length">
-            <value>4.8761904761904766</value>
+            <value>0.67142857142857137</value>
         </property>
         <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/cementGrind2 {3340a8a4-0068-4e0f-8571-6402c32befae}.wav</value>
+            <value>$(AUDIO_BIN_DIR)/manualPullup2 {2c57bce6-b844-4059-8a45-cbf9a80d7100}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{50459705-c4bf-4ef8-a97d-630ea917d0ed}</destination>
+            <destination>{398f6df6-0cf6-4dcd-9cbd-4127292aa32c}</destination>
         </relationship>
     </object>
 </objects>

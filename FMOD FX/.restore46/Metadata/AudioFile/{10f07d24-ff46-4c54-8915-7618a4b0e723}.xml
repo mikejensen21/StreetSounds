@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/cementGrind2 {3340a8a4-0068-4e0f-8571-6402c32befae}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{50459705-c4bf-4ef8-a97d-630ea917d0ed}</destination>
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

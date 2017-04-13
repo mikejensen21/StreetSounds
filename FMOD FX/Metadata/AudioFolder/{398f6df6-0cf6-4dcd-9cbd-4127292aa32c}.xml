@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioBinFolder" id="{398f6df6-0cf6-4dcd-9cbd-4127292aa32c}">
+        <property name="name">
+            <value>manual_pullup</value>
+        </property>
+        <relationship name="container">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
+        </relationship>
+    </object>
+</objects>
