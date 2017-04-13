@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{f7aa300b-9afd-4ba0-a85f-280d8ac617f4}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>16</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/fast_roll {b42b2f8e-bc49-4fd8-b670-2764702c072e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{6ac44cbc-c8c3-41df-a8c3-23420ec13c93}</destination>
+        </relationship>
+    </object>
+</objects>
