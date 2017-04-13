@@ -134,7 +134,7 @@
             <value>Slow Slide</value>
         </property>
         <property name="pitch">
-            <value>-0.600000024</value>
+            <value>-0.200000003</value>
         </property>
         <property name="looping">
             <value>true</value>
@@ -215,7 +215,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>1.5</value>
+            <value>0.200000003</value>
         </property>
     </object>
     <object class="SingleSound" id="{1a2130ee-98e1-447a-ba3b-6b0532d22316}">
@@ -268,10 +268,10 @@
             <value>4.9999829764964643</value>
         </property>
         <property name="value">
-            <value>1.1358695</value>
+            <value>1.0869565</value>
         </property>
         <property name="curveShape">
-            <value>0.0827595592</value>
+            <value>-1</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{fa025b72-4788-40bc-9970-32f4a67fc21d}">

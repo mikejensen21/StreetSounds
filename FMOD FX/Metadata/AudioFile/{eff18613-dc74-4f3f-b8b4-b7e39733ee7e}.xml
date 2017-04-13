@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{eff18613-dc74-4f3f-b8b4-b7e39733ee7e}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.6421768707482993</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Peg impacts-19 {2b68ff24-9430-4806-a99f-ebf7e06c2887}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{bc7dab3c-c263-4f2d-ad21-5cd18e42557d}</destination>
+        </relationship>
+    </object>
+</objects>

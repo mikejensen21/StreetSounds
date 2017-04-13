@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{21514fca-b85b-43ae-b6d5-4caf7bc15b6c}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.66816326530612247</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/wheelimpacts7 {8b326fd2-0905-48c2-a32d-edc605460fd0}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ebb5a71e-7b2d-46de-b7e9-883a45dfa582}</destination>
+        </relationship>
+    </object>
+</objects>

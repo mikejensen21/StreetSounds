@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{92c6087f-105a-4714-826e-e6a6f22689c7}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.89725623582766445</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/bikedump4 {ab598ef6-e9fa-4a6f-be6f-79b9c8a19cda}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{63700c8c-6734-42a3-810e-1e4edf828548}</destination>
+        </relationship>
+    </object>
+</objects>

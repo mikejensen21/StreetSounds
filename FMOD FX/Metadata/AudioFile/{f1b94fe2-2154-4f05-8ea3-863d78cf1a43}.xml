@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{f1b94fe2-2154-4f05-8ea3-863d78cf1a43}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.9009523809523809</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/grindSlowest2 {869d16bb-3841-49d4-b4fb-55fe330f7fb3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d7954233-8ac3-47f3-86d3-5b0d22f7d6cc}</destination>
+        </relationship>
+    </object>
+</objects>
