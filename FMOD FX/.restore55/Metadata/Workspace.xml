@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Workspace" id="{48be9dbc-41e1-4e4e-beaf-8e9e57b15dfd}">
-        <property name="builtBanksOutputDirectory">
-            <value>C:\BMX Streets\Assets\FMOD BUILD/</value>
-        </property>
         <property name="outputFormat">
             <value>6</value>
         </property>
