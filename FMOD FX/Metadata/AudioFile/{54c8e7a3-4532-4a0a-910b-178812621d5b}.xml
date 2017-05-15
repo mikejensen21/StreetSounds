@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{54c8e7a3-4532-4a0a-910b-178812621d5b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.25</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/pedalCrank2 {d5ab5742-6efe-4e8c-96cb-5933ee24e3be}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9275b21f-6d5b-474c-8600-3af76dc4e446}</destination>
+        </relationship>
+    </object>
+</objects>
