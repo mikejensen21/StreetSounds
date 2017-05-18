@@ -136,7 +136,7 @@
     </object>
     <object class="EventMixerGroup" id="{0d688983-8349-4c0e-b3be-b9af2221f2c7}">
         <property name="volume">
-            <value>-51</value>
+            <value>-28.5</value>
         </property>
         <property name="name">
             <value>whurr</value>
@@ -183,9 +183,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{8cb1480c-5408-44e3-9765-0463c2c8ace1}">
-        <property name="volume">
-            <value>-16.5</value>
-        </property>
         <property name="name">
             <value>crank</value>
         </property>
