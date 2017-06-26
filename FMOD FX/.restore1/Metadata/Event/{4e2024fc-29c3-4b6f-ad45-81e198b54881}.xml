@@ -136,7 +136,7 @@
     </object>
     <object class="EventMixerGroup" id="{2ff5c7b8-36b6-40de-9cd4-41a97d42d2d8}">
         <property name="volume">
-            <value>-51</value>
+            <value>-28.5</value>
         </property>
         <property name="name">
             <value>whurr</value>
@@ -183,9 +183,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{25bce90d-84f2-4e1f-805b-df38ad54cd21}">
-        <property name="volume">
-            <value>-15.5</value>
-        </property>
         <property name="name">
             <value>crank</value>
         </property>
@@ -241,11 +238,7 @@
             <destination>{1687963b-ddca-45bd-9883-7ab0452dc8b5}</destination>
         </relationship>
     </object>
-    <object class="MixerBusPanner" id="{a16a504c-1643-4d98-8c81-e45be85ca9d7}">
-        <property name="stereoPan">
-            <value>-20</value>
-        </property>
-    </object>
+    <object class="MixerBusPanner" id="{a16a504c-1643-4d98-8c81-e45be85ca9d7}"/>
     <object class="RandomizerModulator" id="{0e77c710-ffeb-445c-bc3c-f42184c88db1}">
         <property name="nameOfPropertyBeingModulated">
             <value>pitch</value>
@@ -282,7 +275,7 @@
     </object>
     <object class="MixerBusPanner" id="{247226ce-4cb3-49e8-aa85-59b0f301fbc3}">
         <property name="stereoPan">
-            <value>-52</value>
+            <value>-16</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{a8589d4d-57d9-47e2-944b-de9cca548280}"/>

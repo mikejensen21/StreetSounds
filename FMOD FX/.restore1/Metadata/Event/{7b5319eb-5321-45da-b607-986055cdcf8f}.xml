@@ -241,11 +241,7 @@
             <destination>{b89ee6e2-b9b9-4015-a5c8-ea88ef555655}</destination>
         </relationship>
     </object>
-    <object class="MixerBusPanner" id="{4f8a4b09-21a4-4f06-ac74-1758484e90d9}">
-        <property name="stereoPan">
-            <value>20</value>
-        </property>
-    </object>
+    <object class="MixerBusPanner" id="{4f8a4b09-21a4-4f06-ac74-1758484e90d9}"/>
     <object class="RandomizerModulator" id="{b6051dc4-8db6-4e4f-a881-0e1a9197d0a5}">
         <property name="nameOfPropertyBeingModulated">
             <value>pitch</value>
@@ -282,7 +278,7 @@
     </object>
     <object class="MixerBusPanner" id="{71ba6795-7cd0-4cda-a443-6b8a7c827d74}">
         <property name="stereoPan">
-            <value>26</value>
+            <value>16</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{e78cfb65-69ea-4ed3-add9-4b16483b39d1}"/>
