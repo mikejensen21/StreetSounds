@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
+        <relationship name="selectables">
+            <destination>{5425926a-0f84-4f91-a953-02cee9bbc647}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{96f9ecbd-632c-4625-aa49-58318427531e}</destination>
         </relationship>
@@ -28,13 +31,13 @@
     </object>
     <object class="GameParameter" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="cursorPosition">
-            <value>1.3999998569488525</value>
+            <value>4.6999998092651367</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
+            <value>0.010788381742738589</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>172</value>
+            <value>11</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
@@ -43,8 +46,13 @@
         </relationship>
     </object>
     <object class="AutomationTrack" id="{80292818-2a12-42ba-b8b9-9383b10c6783}"/>
+    <object class="AutomationTrack" id="{52485497-8c90-49a7-b758-5b0a1248fa7e}"/>
     <object class="MixerBusEffectChain" id="{fca0e729-1262-473f-9cbe-930335997789}"/>
     <object class="MixerBusPanner" id="{dc317fce-5c42-4245-b88d-fb63c9ef8cf4}"/>
+    <object class="AutomationTrack" id="{3dcfe8a6-de19-4242-9802-fb699537d491}"/>
+    <object class="AutomationTrack" id="{c016d21b-c211-4836-8466-e8f0dac5c595}"/>
+    <object class="AutomationTrack" id="{c152aae6-980c-436c-8057-32064795f76c}"/>
+    <object class="AutomationTrack" id="{39e7cc86-8f98-4bee-bbb5-27f77821b0b8}"/>
     <object class="SingleSound" id="{195fdd75-d0ef-4890-8ace-a972c069705e}">
         <property name="uiModulationDrawerVisible">
             <value>true</value>
@@ -96,5 +104,10 @@
     <object class="MixerBusFader" id="{8ad4d1ba-a1ce-41a8-b522-c3d1634ce724}"/>
     <object class="SpatialiserEffect" id="{4d60ee4c-21be-467a-9b81-f9745b22f6f9}"/>
     <object class="MixerSend" id="{1c707d55-397d-418f-887c-cdc7cf894957}"/>
+    <object class="PluginEffect" id="{ac6e7392-c8af-40a0-8681-ed92d41bbff9}"/>
     <object class="MixerBusFader" id="{a405f45e-c600-4b10-acfe-3aa450ddc625}"/>
+    <object class="FloatPluginParameter" id="{979d1148-a0e5-4856-b576-29a5628e2a19}"/>
+    <object class="FloatPluginParameter" id="{968152e8-af39-40c6-82dc-2596480a2278}"/>
+    <object class="FloatPluginParameter" id="{87912354-abc0-415f-ba4e-70fd86ce3afa}"/>
+    <object class="FloatPluginParameter" id="{a000f481-30c6-4dd0-8409-4031e6237125}"/>
 </objects>
