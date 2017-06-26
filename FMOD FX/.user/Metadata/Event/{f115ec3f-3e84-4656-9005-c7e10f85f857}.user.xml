@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
+        <relationship name="selectables">
+            <destination>{aaa7145a-c128-4ab0-a6f9-6f481690b894}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{163dbe17-52dd-4fac-aae3-2246dd86bbd2}</destination>
+            <destination>{72a95422-b7b1-4ea6-90e9-ee72f278a31e}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{b1130068-1bc9-4551-b6bc-31f5758fc1c7}">
@@ -28,7 +31,7 @@
     </object>
     <object class="GameParameter" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="cursorPosition">
-            <value>13</value>
+            <value>6.3999996185302734</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.010788381742738589</value>
@@ -36,21 +39,21 @@
     </object>
     <object class="GameParameter" id="{163dbe17-52dd-4fac-aae3-2246dd86bbd2}">
         <property name="cursorPosition">
-            <value>-0.14688796680497929</value>
+            <value>0.079999998211860657</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0016597510373443983</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>2</value>
+            <value>0.0016764459346186086</value>
         </property>
     </object>
     <object class="GameParameter" id="{72a95422-b7b1-4ea6-90e9-ee72f278a31e}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>0.96016597510373447</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082987551867219915</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>12</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
