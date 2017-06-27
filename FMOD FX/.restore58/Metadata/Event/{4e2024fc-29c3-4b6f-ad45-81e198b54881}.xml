@@ -135,19 +135,13 @@
             <value>1</value>
         </property>
         <property name="volume">
-            <value>-20.5</value>
+            <value>-7.5</value>
         </property>
         <property name="pitch">
             <value>-0.399999976</value>
         </property>
         <relationship name="modulators">
             <destination>{0e77c710-ffeb-445c-bc3c-f42184c88db1}</destination>
-        </relationship>
-        <relationship name="sounds">
-            <destination>{12e92ec8-56d0-4881-8d4d-c132054d2c65}</destination>
-            <destination>{a7dc46d4-1248-4630-a9a4-bfe410742360}</destination>
-            <destination>{ba2b1888-9cd8-4c10-82a7-68d56a61d342}</destination>
-            <destination>{034f86ef-1f57-404e-a11b-ccbada35f326}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{25bce90d-84f2-4e1f-805b-df38ad54cd21}">
@@ -189,26 +183,6 @@
         <property name="amount">
             <value>1.5</value>
         </property>
-    </object>
-    <object class="SingleSound" id="{12e92ec8-56d0-4881-8d4d-c132054d2c65}">
-        <relationship name="audioFile">
-            <destination>{7c936c67-fae0-4cb4-909a-d8c5825a1b3a}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{a7dc46d4-1248-4630-a9a4-bfe410742360}">
-        <relationship name="audioFile">
-            <destination>{19656724-d2cb-48f7-b2f3-4682a96cb322}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{ba2b1888-9cd8-4c10-82a7-68d56a61d342}">
-        <relationship name="audioFile">
-            <destination>{23c59ffb-5205-4524-af73-93077b22efb4}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{034f86ef-1f57-404e-a11b-ccbada35f326}">
-        <relationship name="audioFile">
-            <destination>{d50316b7-5059-4f2b-8861-9cd1eaa48723}</destination>
-        </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{ed7a36e2-bbd4-44f1-a969-ec9167b4c9d9}">
         <relationship name="effects">

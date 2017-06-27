@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{4e2024fc-29c3-4b6f-ad45-81e198b54881}">
+        <relationship name="selectables">
+            <destination>{de53bb87-5fce-4c44-b2d5-cd1a86e5b179}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{9845ee54-2d47-41a2-8e45-feb4869c2dab}</destination>
         </relationship>
@@ -24,7 +27,7 @@
     </object>
     <object class="GameParameter" id="{9845ee54-2d47-41a2-8e45-feb4869c2dab}">
         <property name="cursorPosition">
-            <value>1.0705394190871369</value>
+            <value>2.2489626556016598</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082987551867219917</value>
@@ -55,10 +58,10 @@
     <object class="MixerBusPanner" id="{117b6c16-59cf-4222-8ba2-2aac66898a34}"/>
     <object class="MixerBusFader" id="{c64cea26-68dd-4f9e-aca9-48c093ca46b0}"/>
     <object class="RandomizerModulator" id="{0e77c710-ffeb-445c-bc3c-f42184c88db1}"/>
-    <object class="SingleSound" id="{38ce422b-856b-4a5a-ade8-295ae72cdbb9}"/>
-    <object class="SingleSound" id="{a4c2675e-d480-49da-901f-9a0da7ca8c72}"/>
-    <object class="SingleSound" id="{a2ea096e-28a3-4235-b515-962725aaf5c9}"/>
-    <object class="SingleSound" id="{833078a4-7409-4ffa-af48-255e770c07f5}"/>
+    <object class="SingleSound" id="{12e92ec8-56d0-4881-8d4d-c132054d2c65}"/>
+    <object class="SingleSound" id="{a7dc46d4-1248-4630-a9a4-bfe410742360}"/>
+    <object class="SingleSound" id="{ba2b1888-9cd8-4c10-82a7-68d56a61d342}"/>
+    <object class="SingleSound" id="{034f86ef-1f57-404e-a11b-ccbada35f326}"/>
     <object class="MixerBusEffectChain" id="{ed7a36e2-bbd4-44f1-a969-ec9167b4c9d9}"/>
     <object class="MixerBusPanner" id="{247226ce-4cb3-49e8-aa85-59b0f301fbc3}"/>
     <object class="MixerBusFader" id="{a8589d4d-57d9-47e2-944b-de9cca548280}"/>
