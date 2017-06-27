@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{336d2e7f-a6e4-4adb-970a-e12aee1ee87f}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.74961451247165534</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/clothShort4 {642ca334-f14f-4dd6-99ba-4457071ceff3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{70a5fc5f-6a8a-4f96-ab74-c93ce2efbe88}</destination>
+        </relationship>
+    </object>
+</objects>
