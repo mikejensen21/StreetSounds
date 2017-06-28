@@ -11,6 +11,9 @@
     <object class="MarkerTrack" id="{a2c4404c-9919-490a-a875-2abfac6105f7}"/>
     <object class="GroupTrack" id="{0f5ed272-737d-4038-ae60-55741e8b151f}"/>
     <object class="Timeline" id="{3afe8ee6-851f-45d7-a54f-631ffccb9cde}">
+        <property name="cursorPosition">
+            <value>3.1893687707641196</value>
+        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024916943521594685</value>
         </property>
