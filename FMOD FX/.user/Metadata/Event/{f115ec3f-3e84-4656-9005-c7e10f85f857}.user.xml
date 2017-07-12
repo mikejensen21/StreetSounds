@@ -5,7 +5,7 @@
             <destination>{e7f8bc9f-740d-4140-ac1e-da2e0d046279}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{96f9ecbd-632c-4625-aa49-58318427531e}</destination>
+            <destination>{72a95422-b7b1-4ea6-90e9-ee72f278a31e}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{b1130068-1bc9-4551-b6bc-31f5758fc1c7}">
@@ -31,26 +31,29 @@
     </object>
     <object class="GameParameter" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="cursorPosition">
-            <value>6.3999996185302734</value>
+            <value>7.3037344398340247</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.010788381742738589</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>58</value>
+            <value>206</value>
         </property>
     </object>
     <object class="GameParameter" id="{163dbe17-52dd-4fac-aae3-2246dd86bbd2}">
         <property name="cursorPosition">
-            <value>0.079999998211860657</value>
+            <value>-0.3646269907795473</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0016764459346186086</value>
         </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>194</value>
+        </property>
     </object>
     <object class="GameParameter" id="{72a95422-b7b1-4ea6-90e9-ee72f278a31e}">
         <property name="cursorPosition">
-            <value>0.96016597510373447</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082987551867219915</value>

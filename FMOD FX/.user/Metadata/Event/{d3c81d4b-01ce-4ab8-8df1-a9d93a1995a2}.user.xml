@@ -15,15 +15,15 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.025884383088869714</value>
+            <value>0.024916943521594685</value>
         </property>
     </object>
     <object class="GameParameter" id="{1e684304-cfaf-4f45-b29c-6b5eb93363c9}">
         <property name="cursorPosition">
-            <value>0.63848144952545294</value>
+            <value>1.3704318936877078</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0086281276962899053</value>
+            <value>0.0083056478405315621</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{d5bad22f-61f3-43ba-a68d-1d99dbc8f3b8}">
