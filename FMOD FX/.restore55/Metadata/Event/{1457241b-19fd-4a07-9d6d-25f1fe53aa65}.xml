@@ -5,7 +5,7 @@
             <value>scroll sound02</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixer">
             <destination>{ebb60858-53c2-4a27-9173-50861d50cfea}</destination>
@@ -119,6 +119,7 @@
     <object class="MixerBusEffectChain" id="{08394bba-dc6e-4ab2-8f2a-817462c12ded}">
         <relationship name="effects">
             <destination>{cf488a71-e445-42d4-8233-f20b1f77b27e}</destination>
+            <destination>{9de8955b-f202-493d-bf18-5e597868d344}</destination>
             <destination>{b4797758-9960-49a6-809b-4f31be3bcad0}</destination>
         </relationship>
     </object>
@@ -131,9 +132,10 @@
     </object>
     <object class="MixerBusPanner" id="{4076ab45-9b37-4d68-be8e-033dafeacdb4}"/>
     <object class="MixerBusFader" id="{cf488a71-e445-42d4-8233-f20b1f77b27e}"/>
+    <object class="SpatialiserEffect" id="{9de8955b-f202-493d-bf18-5e597868d344}"/>
     <object class="MixerSend" id="{b4797758-9960-49a6-809b-4f31be3bcad0}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>
