@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{d38085e8-0ca1-4b75-85dd-67d4cfcae4a9}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>274.28573696145122</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/It Gets Deep {0b8ff49e-ba17-4df3-90a5-95d712bd9baa}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        </relationship>
+    </object>
+</objects>

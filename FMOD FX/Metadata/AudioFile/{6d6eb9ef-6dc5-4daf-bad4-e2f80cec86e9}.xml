@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{6d6eb9ef-6dc5-4daf-bad4-e2f80cec86e9}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>252.6315873015873</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Swindy {1901d15e-3304-415f-9186-a1d250bc4d90}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        </relationship>
+    </object>
+</objects>
