@@ -12,7 +12,7 @@
     <object class="GroupTrack" id="{e8f19656-8530-4207-bfba-8bb56cd75628}"/>
     <object class="Timeline" id="{7ba53dcf-6357-45b1-867d-e4193b4964b2}">
         <property name="cursorPosition">
-            <value>119.63641575341585</value>
+            <value>14.430851705664947</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.23275567267201527</value>
@@ -34,7 +34,6 @@
     <object class="MixerBusEffectChain" id="{3301ae64-0b6f-4652-b248-32a90288a4f6}"/>
     <object class="MixerBusPanner" id="{2cbad04c-ecb5-4be5-ae9c-adb052ec0623}"/>
     <object class="MixerBusFader" id="{754ee5f1-fc29-47bd-ac76-fe23c39cf6dc}"/>
-    <object class="SpatialiserEffect" id="{dc4c7d98-3089-4de3-8086-713b43fcc812}"/>
     <object class="MixerSend" id="{f3d22453-60b2-4d8d-b9a8-57baf27505ad}"/>
     <object class="MixerBusFader" id="{2c822e52-6667-4c99-980a-ac6a96df6706}"/>
 </objects>
