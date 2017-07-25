@@ -5,7 +5,7 @@
             <value>tire_bail</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixer">
             <destination>{0cd555df-0188-4024-ae7b-d7974124bf8e}</destination>
@@ -155,6 +155,7 @@
     <object class="MixerBusEffectChain" id="{e9aef2e3-cbf9-46fc-8e43-e2b7d4224442}">
         <relationship name="effects">
             <destination>{6cad20bc-ecb9-4910-b35e-5f2c5858bae4}</destination>
+            <destination>{3bc4f3c5-8c5a-4ddd-8880-6acae652ac63}</destination>
             <destination>{e1ecea5a-3a8c-45ea-8565-a036dba9ac0e}</destination>
         </relationship>
     </object>
@@ -226,9 +227,10 @@
     </object>
     <object class="MixerBusPanner" id="{54ebf342-2e68-438e-aaf0-031fe16592f6}"/>
     <object class="MixerBusFader" id="{6cad20bc-ecb9-4910-b35e-5f2c5858bae4}"/>
+    <object class="SpatialiserEffect" id="{3bc4f3c5-8c5a-4ddd-8880-6acae652ac63}"/>
     <object class="MixerSend" id="{e1ecea5a-3a8c-45ea-8565-a036dba9ac0e}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>

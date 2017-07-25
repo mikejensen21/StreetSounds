@@ -5,7 +5,7 @@
             <value>peg_bail</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixer">
             <destination>{f889d65d-cd0a-45a6-ad07-64f4e741304d}</destination>
@@ -146,6 +146,7 @@
     <object class="MixerBusEffectChain" id="{fd61bb0c-b21d-4ee2-b4bd-d809bb7b3369}">
         <relationship name="effects">
             <destination>{d5c0b590-b6bf-41f0-b488-71f2b30e3f8e}</destination>
+            <destination>{66fb458c-bf6a-408d-b23f-620059446b17}</destination>
             <destination>{a89fae12-1ff4-4b65-8144-c40ab4038a82}</destination>
         </relationship>
     </object>
@@ -211,9 +212,10 @@
     </object>
     <object class="MixerBusPanner" id="{6cb4cbfd-9e35-4d07-8c17-fbea20a307d0}"/>
     <object class="MixerBusFader" id="{d5c0b590-b6bf-41f0-b488-71f2b30e3f8e}"/>
+    <object class="SpatialiserEffect" id="{66fb458c-bf6a-408d-b23f-620059446b17}"/>
     <object class="MixerSend" id="{a89fae12-1ff4-4b65-8144-c40ab4038a82}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>

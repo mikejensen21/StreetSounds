@@ -5,7 +5,7 @@
             <value>bike_dump</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixer">
             <destination>{a1653fdf-88cd-4501-9640-db2ddf3e86c3}</destination>
@@ -185,6 +185,7 @@
     <object class="MixerBusEffectChain" id="{ac65beff-a078-45d6-80ea-eb6d4734b075}">
         <relationship name="effects">
             <destination>{f9e89d4a-3541-4c13-b302-db95f9f59a6c}</destination>
+            <destination>{fbf7a7d1-e398-4e13-9f1c-895cef9e8e8d}</destination>
             <destination>{46032549-291b-4e14-bea5-91d35ce66cdb}</destination>
         </relationship>
     </object>
@@ -302,9 +303,10 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{f9e89d4a-3541-4c13-b302-db95f9f59a6c}"/>
+    <object class="SpatialiserEffect" id="{fbf7a7d1-e398-4e13-9f1c-895cef9e8e8d}"/>
     <object class="MixerSend" id="{46032549-291b-4e14-bea5-91d35ce66cdb}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>

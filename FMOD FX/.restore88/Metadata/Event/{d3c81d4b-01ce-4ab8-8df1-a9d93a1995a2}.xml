@@ -5,7 +5,7 @@
             <value>handle_bar_bail</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixer">
             <destination>{079659aa-2049-4ba7-87f0-077557c4b76e}</destination>
@@ -141,6 +141,7 @@
     <object class="MixerBusEffectChain" id="{12bccaa0-0255-4d2c-9de9-ca1c7cb8b33a}">
         <relationship name="effects">
             <destination>{f017768c-83f3-4a67-90ac-d8bdfaeed1e3}</destination>
+            <destination>{dd083b37-2da1-478f-932f-ebcc622b35cf}</destination>
             <destination>{cf19ea81-9025-4e50-8e00-3b87153155e0}</destination>
         </relationship>
     </object>
@@ -181,9 +182,10 @@
     </object>
     <object class="MixerBusPanner" id="{def8d5f1-b2e1-4e50-a9f2-89b4bf2d77c4}"/>
     <object class="MixerBusFader" id="{f017768c-83f3-4a67-90ac-d8bdfaeed1e3}"/>
+    <object class="SpatialiserEffect" id="{dd083b37-2da1-478f-932f-ebcc622b35cf}"/>
     <object class="MixerSend" id="{cf19ea81-9025-4e50-8e00-3b87153155e0}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>
