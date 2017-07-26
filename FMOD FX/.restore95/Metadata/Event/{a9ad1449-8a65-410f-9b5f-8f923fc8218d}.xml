@@ -31,9 +31,6 @@
         <relationship name="parameters">
             <destination>{20977f99-39e0-4a2f-91a2-19c3afe4be29}</destination>
         </relationship>
-        <relationship name="banks">
-            <destination>{e033585c-c879-480a-886f-2ee851a210b8}</destination>
-        </relationship>
         <relationship name="folder">
             <destination>{953bb01b-b62d-444a-a337-7946e06d2939}</destination>
         </relationship>
@@ -162,14 +159,12 @@
         <relationship name="automationPoints">
             <destination>{4cf561e0-4b08-45e5-8492-c0923be56b41}</destination>
             <destination>{9725a823-c3ac-45e3-8ef8-456d36f05249}</destination>
-            <destination>{9821b9b8-68ee-4dd3-8d1a-af852182b7de}</destination>
         </relationship>
     </object>
     <object class="AutomationCurve" id="{822304ab-557d-4608-977f-5e59b389a4a0}">
         <relationship name="automationPoints">
             <destination>{c9a66de8-87b3-43d1-8c90-57e27a09d396}</destination>
             <destination>{80299a45-af38-4baf-8dc3-2a0ed056ddab}</destination>
-            <destination>{6cfa5f66-582c-425c-8abd-128980d60335}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{1f6d0679-e2a4-4eb3-9707-b56f2ec2cc4b}">
@@ -209,10 +204,7 @@
             <value>0</value>
         </property>
         <property name="value">
-            <value>-21.4720497</value>
-        </property>
-        <property name="curveShape">
-            <value>0.548410833</value>
+            <value>-7.84956741</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{9725a823-c3ac-45e3-8ef8-456d36f05249}">
@@ -223,20 +215,12 @@
             <value>-0.659999847</value>
         </property>
     </object>
-    <object class="AutomationPoint" id="{9821b9b8-68ee-4dd3-8d1a-af852182b7de}">
-        <property name="position">
-            <value>0.98755186721991706</value>
-        </property>
-        <property name="value">
-            <value>-7.1395607</value>
-        </property>
-    </object>
     <object class="AutomationPoint" id="{c9a66de8-87b3-43d1-8c90-57e27a09d396}">
         <property name="position">
             <value>0</value>
         </property>
         <property name="value">
-            <value>2260.86914</value>
+            <value>4650.00049</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{80299a45-af38-4baf-8dc3-2a0ed056ddab}">
@@ -245,14 +229,6 @@
         </property>
         <property name="value">
             <value>10347.8242</value>
-        </property>
-    </object>
-    <object class="AutomationPoint" id="{6cfa5f66-582c-425c-8abd-128980d60335}">
-        <property name="position">
-            <value>0.99585062240663891</value>
-        </property>
-        <property name="value">
-            <value>4973.65088</value>
         </property>
     </object>
     <object class="LowpassEffect" id="{39b6877c-9ab7-42fe-8f4d-f901ab0db894}">

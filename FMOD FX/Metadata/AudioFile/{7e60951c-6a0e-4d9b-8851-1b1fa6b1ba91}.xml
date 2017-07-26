@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{7e60951c-6a0e-4d9b-8851-1b1fa6b1ba91}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.08401360544217687</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/cementKink1 {6a63fb3f-2750-4ee3-9c8f-5b8610b1b779}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1a2c731d-4711-4230-aa6b-18400f759078}</destination>
+        </relationship>
+    </object>
+</objects>
