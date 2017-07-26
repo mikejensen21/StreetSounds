@@ -208,7 +208,6 @@
             <destination>{66b400b6-ceba-497c-885c-8751e65d4b28}</destination>
             <destination>{ad94796f-6391-4a20-a34b-482bacce01d5}</destination>
             <destination>{d553155a-9305-4537-9e6c-f358e5c2d472}</destination>
-            <destination>{63c239b4-ca5f-4b4a-87e7-39cf4eae8faa}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{7a07d2c0-ccc5-4a8a-903a-7a97be9a44fb}"/>
@@ -296,7 +295,7 @@
             <value>0.0086281276962899053</value>
         </property>
         <property name="value">
-            <value>3399.99878</value>
+            <value>4999.99951</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{5908974d-80c6-489f-91ad-2ae45066ab9d}">
@@ -304,7 +303,7 @@
             <value>10</value>
         </property>
         <property name="value">
-            <value>8728.25977</value>
+            <value>16434.7852</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{2dbf4788-bdb9-4087-a710-4f3438f460ed}">
@@ -348,17 +347,6 @@
     <object class="ChannelMixEffect" id="{d553155a-9305-4537-9e6c-f358e5c2d472}">
         <property name="outputGrouping">
             <value>1</value>
-        </property>
-    </object>
-    <object class="ThreeEQEffect" id="{63c239b4-ca5f-4b4a-87e7-39cf4eae8faa}">
-        <property name="lowGain">
-            <value>3.5</value>
-        </property>
-        <property name="midGain">
-            <value>-5</value>
-        </property>
-        <property name="highGain">
-            <value>-8.5</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{ca3b7401-e256-4c3f-bbe9-92a0b10c6c36}">

@@ -24,7 +24,7 @@
     </object>
     <object class="GameParameter" id="{f94783e2-e346-489c-a4ca-b513789e97dc}">
         <property name="cursorPosition">
-            <value>2.8999998569488525</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0086281276962899053</value>
@@ -69,5 +69,6 @@
     <object class="MixerBusFader" id="{66b400b6-ceba-497c-885c-8751e65d4b28}"/>
     <object class="MixerSend" id="{ad94796f-6391-4a20-a34b-482bacce01d5}"/>
     <object class="ChannelMixEffect" id="{d553155a-9305-4537-9e6c-f358e5c2d472}"/>
+    <object class="ThreeEQEffect" id="{63c239b4-ca5f-4b4a-87e7-39cf4eae8faa}"/>
     <object class="MixerBusFader" id="{b3ccffb1-1533-408b-a065-94b51d6f4e57}"/>
 </objects>
