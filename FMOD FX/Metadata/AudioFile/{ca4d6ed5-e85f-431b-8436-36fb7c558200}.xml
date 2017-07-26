@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{ca4d6ed5-e85f-431b-8436-36fb7c558200}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.73</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/cementFast1 {ef5a5146-7562-45a6-992c-545dcfbd5317}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{50459705-c4bf-4ef8-a97d-630ea917d0ed}</destination>
+        </relationship>
+    </object>
+</objects>
