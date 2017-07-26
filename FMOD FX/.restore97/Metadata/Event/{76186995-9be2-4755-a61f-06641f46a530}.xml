@@ -311,7 +311,7 @@
             <value>10</value>
         </property>
         <property name="value">
-            <value>-0.0608711243</value>
+            <value>-0.659999847</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{fc5a22d5-3b20-4908-8a6c-2c5d6ffe9ea3}">
@@ -319,7 +319,7 @@
             <value>1.004149377593361</value>
         </property>
         <property name="value">
-            <value>-4.85391235</value>
+            <value>-7.12762833</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{8569a7ea-e1c1-45c3-abe8-010f1d69c5c6}">
@@ -335,15 +335,15 @@
             <value>10</value>
         </property>
         <property name="value">
-            <value>12086.9521</value>
+            <value>10347.8242</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{3529050e-b3c1-4c4e-b22f-9dfb8dffd7f4}">
         <property name="position">
-            <value>0.97925311203319509</value>
+            <value>1.0373443983402491</value>
         </property>
         <property name="value">
-            <value>7260.87012</value>
+            <value>4987.13623</value>
         </property>
     </object>
     <object class="LowpassEffect" id="{35f2b216-4dc0-47a3-932f-8f7e68d0ffa3}">
