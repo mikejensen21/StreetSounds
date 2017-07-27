@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{6b529a39-50f7-4bd6-a215-518e1f2bf06b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.48031746031746031</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/cfthrowshort {a80c52a9-5df3-4b64-bcaa-258729e6bccb}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
+        </relationship>
+    </object>
+</objects>
