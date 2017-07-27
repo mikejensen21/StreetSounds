@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{89c10c23-d126-4412-82e6-385c6f881269}">
+        <relationship name="selectables">
+            <destination>{265c26de-061d-4198-8251-15e3834680e4}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{f7dd3e3f-8725-4f16-b1fa-048ac2274c94}</destination>
         </relationship>
@@ -19,7 +22,7 @@
             <value>0.00072180952282733992</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>749</value>
+            <value>611</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{f1e1ac44-b0b3-473f-8ab7-3e12926b8432}">
@@ -30,7 +33,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{e2bdb234-8d3f-41bf-ac53-10d21c83c70e}"/>
     <object class="MixerBusPanner" id="{05123d25-1e00-4c0d-a474-a03e2a9862dd}"/>
-    <object class="SingleSound" id="{dacb5c75-b38e-42d5-a7b9-955d7f8eccbc}"/>
+    <object class="SingleSound" id="{99880fce-1134-4ebf-86c8-8ffe3cfab53b}"/>
     <object class="EventMixerGroup" id="{fc5d633d-2771-4f5e-a90d-e345461153cc}"/>
     <object class="SingleSound" id="{571634ea-265e-4f9a-9815-2a832d563417}">
         <property name="uiModulationDrawerVisible">
