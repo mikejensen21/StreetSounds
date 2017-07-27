@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{5b586806-b17c-49c1-824a-d1569fa57966}">
         <property name="name">
-            <value>Catch One Hand</value>
+            <value>Barspin Catch</value>
         </property>
         <property name="outputFormat">
             <value>2</value>
@@ -27,9 +27,6 @@
         </relationship>
         <relationship name="timeline">
             <destination>{0491172b-3d6f-408d-97ba-c2ffbedecb06}</destination>
-        </relationship>
-        <relationship name="banks">
-            <destination>{a86af8ac-03b3-4c74-bda9-c37fe7bbd0c9}</destination>
         </relationship>
         <relationship name="folder">
             <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
