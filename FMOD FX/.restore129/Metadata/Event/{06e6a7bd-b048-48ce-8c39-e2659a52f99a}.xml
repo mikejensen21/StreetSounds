@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{06e6a7bd-b048-48ce-8c39-e2659a52f99a}">
         <property name="name">
-            <value>cement_slide_double</value>
+            <value>cement_slide</value>
         </property>
         <property name="outputFormat">
             <value>2</value>

@@ -4,12 +4,6 @@
         <property name="uiMarkerTracksVisible">
             <value>false</value>
         </property>
-        <relationship name="selectables">
-            <destination>{17e4340a-aa64-4b15-941b-57cb20027b96}</destination>
-        </relationship>
-        <relationship name="uiLastParameterSelection">
-            <destination>{ed4848fe-5b8a-4744-88f0-ddc56c90ab6a}</destination>
-        </relationship>
     </object>
     <object class="MasterTrack" id="{17e4340a-aa64-4b15-941b-57cb20027b96}">
         <property name="uiAutomationTracksVisible">
