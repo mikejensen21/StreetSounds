@@ -13,13 +13,13 @@
     <object class="GroupTrack" id="{d5015696-74de-4acf-bcf0-9f05f2bcb652}"/>
     <object class="Timeline" id="{f7dd3e3f-8725-4f16-b1fa-048ac2274c94}">
         <property name="cursorPosition">
-            <value>0.40565695182896505</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00072180952282733992</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>355</value>
+            <value>749</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{f1e1ac44-b0b3-473f-8ab7-3e12926b8432}">
@@ -30,9 +30,13 @@
     </object>
     <object class="MixerBusEffectChain" id="{e2bdb234-8d3f-41bf-ac53-10d21c83c70e}"/>
     <object class="MixerBusPanner" id="{05123d25-1e00-4c0d-a474-a03e2a9862dd}"/>
-    <object class="SingleSound" id="{d72acf91-2a18-4883-bc51-7913b1e34642}"/>
+    <object class="SingleSound" id="{dacb5c75-b38e-42d5-a7b9-955d7f8eccbc}"/>
     <object class="EventMixerGroup" id="{fc5d633d-2771-4f5e-a90d-e345461153cc}"/>
-    <object class="SingleSound" id="{571634ea-265e-4f9a-9815-2a832d563417}"/>
+    <object class="SingleSound" id="{571634ea-265e-4f9a-9815-2a832d563417}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{f040fa47-6794-4577-b3e0-d97f5eeca9b4}"/>
     <object class="LoopRegion" id="{265c26de-061d-4198-8251-15e3834680e4}"/>
     <object class="MixerBusEffectChain" id="{576a9dce-02e1-48f6-88e9-fb71d38725a2}"/>
