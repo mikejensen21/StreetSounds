@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{0e5e84a9-2cbf-46ce-b136-6ebb2a3cbfa8}">
-        <relationship name="selectables">
-            <destination>{fcc2a211-b72d-4b83-a06d-e494b4115494}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{e5c6180e-a4cc-428c-9d54-33d8144da625}</destination>
         </relationship>
@@ -15,7 +12,7 @@
     <object class="GroupTrack" id="{b0fa5270-153b-4044-abcd-81daa92ffb8e}"/>
     <object class="Timeline" id="{e5c6180e-a4cc-428c-9d54-33d8144da625}">
         <property name="cursorPosition">
-            <value>0.0235818860187158</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00050174225571735745</value>
@@ -28,7 +25,11 @@
     </object>
     <object class="MixerBusEffectChain" id="{63c71463-add2-4940-bbe6-6408a33abd38}"/>
     <object class="MixerBusPanner" id="{a4c9901d-c03b-4013-8ff8-44fa7e2e6f05}"/>
-    <object class="SingleSound" id="{1b709269-8c24-4055-9c9c-018a74990356}"/>
+    <object class="SingleSound" id="{1b709269-8c24-4055-9c9c-018a74990356}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{c40f4987-431c-4c59-987a-532805a1e1a2}"/>
     <object class="MixerBusEffectChain" id="{47cb138e-8524-404f-9cff-d86d5357b5b3}"/>
     <object class="MixerBusPanner" id="{a2f2861e-108c-427f-9f41-77d786826b5d}"/>
