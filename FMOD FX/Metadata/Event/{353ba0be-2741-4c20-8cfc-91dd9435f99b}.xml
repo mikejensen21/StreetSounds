@@ -147,15 +147,21 @@
         <property name="maxVoices">
             <value>1</value>
         </property>
+        <property name="volume">
+            <value>-7.5</value>
+        </property>
         <property name="pitch">
             <value>-0.399999976</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="modulators">
             <destination>{547f0a4d-41c7-4784-919c-03aff627d31e}</destination>
         </relationship>
         <relationship name="sounds">
-            <destination>{2d846432-2c74-4333-8683-49ce298b89e0}</destination>
-            <destination>{29e05eee-4460-42f1-965e-432b41b5fc79}</destination>
+            <destination>{1f2a3948-c4bd-4615-91c3-87bab4ccffb2}</destination>
+            <destination>{7c137d3f-bc59-4b11-979a-f7ac458772ba}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{05244fcd-fd4b-48f0-aed2-5fcdfe0d6192}">
@@ -201,20 +207,14 @@
             <value>0.5</value>
         </property>
     </object>
-    <object class="SingleSound" id="{2d846432-2c74-4333-8683-49ce298b89e0}">
-        <property name="looping">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{1f2a3948-c4bd-4615-91c3-87bab4ccffb2}">
         <relationship name="audioFile">
-            <destination>{75f973ce-f978-463c-b8d2-dac907acdb41}</destination>
+            <destination>{7d0fbd91-9269-4333-9de7-81ef5735abd4}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{29e05eee-4460-42f1-965e-432b41b5fc79}">
-        <property name="looping">
-            <value>true</value>
-        </property>
+    <object class="SingleSound" id="{7c137d3f-bc59-4b11-979a-f7ac458772ba}">
         <relationship name="audioFile">
-            <destination>{3794029b-4786-4e64-b64d-14a0913d944f}</destination>
+            <destination>{f37c5ddd-7edb-42c7-8e05-1cd1ca06efbd}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{8b87b9c4-1cb8-47d0-9f43-f0df99165a0e}">
@@ -229,7 +229,7 @@
             <value>9.0290456431535269</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-7.84956741</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{393812c6-7c87-46e6-88a9-12f0b1686b74}">
