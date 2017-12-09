@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{02fd35ac-3ab1-4c30-ac87-3e62f236c5c7}">
         <relationship name="selectables">
-            <destination>{d38d6bd2-dbe5-4a91-91c5-9d1b7e642eaa}</destination>
+            <destination>{bf987cbb-e56c-464e-939a-21ee7a89e139}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
@@ -26,6 +26,9 @@
         </property>
     </object>
     <object class="GameParameter" id="{d310d15b-cec7-4308-933e-4d9d3d414bc3}">
+        <property name="cursorPosition">
+            <value>1.892116182572614</value>
+        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082987551867219917</value>
         </property>
@@ -65,6 +68,7 @@
     <object class="MixerBusFader" id="{8fca01f8-3673-4f39-82c9-822eea0ed945}"/>
     <object class="SpatialiserEffect" id="{07464bfb-33c7-4cf9-a365-b6d3ebd8c6e3}"/>
     <object class="MixerSend" id="{9ea69944-0be4-477d-ae4c-fbdd5e2b4ec4}"/>
+    <object class="ParamEqEffect" id="{39bb195e-7a97-4e1a-918e-0ad12d405974}"/>
     <object class="MixerBusFader" id="{af53df0f-885e-4cda-ae43-f6eb371e1a5b}"/>
     <object class="SFXReverbEffect" id="{981664a7-55e9-4a85-a4cc-dad89ca1d53d}"/>
 </objects>

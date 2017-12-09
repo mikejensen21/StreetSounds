@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{7994058d-d658-4101-8ed0-1d691c9a74d2}">
+        <relationship name="selectables">
+            <destination>{ab085eff-0850-46b3-8c04-e68cb23169fd}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{c04ca1dc-0d59-426b-8f4f-0238dd1c89b5}</destination>
         </relationship>
@@ -56,13 +59,9 @@
     <object class="SingleSound" id="{4d77c508-409f-49ac-bb01-9e2c69c939da}"/>
     <object class="SingleSound" id="{bf85d79c-70db-494c-8990-7528642ff5bd}"/>
     <object class="SingleSound" id="{eeabfd5d-7fe2-4d15-901a-21de8ef26c64}"/>
-    <object class="SingleSound" id="{7a2a9835-3702-433f-ad70-1a66b7ccfe39}"/>
     <object class="SingleSound" id="{b1748c7b-f7fe-49e7-847c-0bf702eef13b}"/>
-    <object class="SingleSound" id="{c9c3d937-0936-43d9-a6f6-54d5bd3e835f}"/>
     <object class="SingleSound" id="{f3deb84c-badb-48f9-8208-e8d23427ebb1}"/>
-    <object class="SingleSound" id="{59d2356e-4419-4734-9191-b6cfbe1a9ef3}"/>
     <object class="SingleSound" id="{12237359-7cc0-4634-887e-2f06050d242e}"/>
-    <object class="SingleSound" id="{c3538049-3088-4e2b-957e-a7a058dac006}"/>
     <object class="SingleSound" id="{b3f3e82d-d585-41aa-8a21-037a5e5853c7}"/>
     <object class="SingleSound" id="{c63fcf74-4401-442a-bcec-7a8cd3ae638f}"/>
     <object class="SingleSound" id="{3b39b441-6dc1-45f9-835a-61377cbb18e0}"/>
@@ -73,4 +72,5 @@
     <object class="MixerSend" id="{dada3809-ba14-4f92-b173-b41a4c729575}"/>
     <object class="MixerBusFader" id="{d0b4b2cd-92eb-4f5a-97d7-f891fec89283}"/>
     <object class="SFXReverbEffect" id="{ed3c346c-a85d-4d85-b8d1-c0ba385854b9}"/>
+    <object class="ParamEqEffect" id="{aafe3c53-8f06-4993-8e57-54283b08ae4b}"/>
 </objects>

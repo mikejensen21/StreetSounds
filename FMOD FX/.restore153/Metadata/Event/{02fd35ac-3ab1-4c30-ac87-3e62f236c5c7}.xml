@@ -138,9 +138,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{3ea59745-991c-414f-b198-7a3fc6f2a233}">
-        <property name="volume">
-            <value>-11.5</value>
-        </property>
         <property name="name">
             <value>Audio 1</value>
         </property>
@@ -218,7 +215,6 @@
     </object>
     <object class="MixerBusEffectChain" id="{fc43fb77-c71f-4093-b0a8-b0b5cf62dbd1}">
         <relationship name="effects">
-            <destination>{39bb195e-7a97-4e1a-918e-0ad12d405974}</destination>
             <destination>{af53df0f-885e-4cda-ae43-f6eb371e1a5b}</destination>
             <destination>{981664a7-55e9-4a85-a4cc-dad89ca1d53d}</destination>
         </relationship>
@@ -233,17 +229,6 @@
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>
         </relationship>
-    </object>
-    <object class="ParamEqEffect" id="{39bb195e-7a97-4e1a-918e-0ad12d405974}">
-        <property name="centreFrequency">
-            <value>1250</value>
-        </property>
-        <property name="gain">
-            <value>-9.5</value>
-        </property>
-        <property name="bandwidth">
-            <value>3.44999981</value>
-        </property>
     </object>
     <object class="MixerBusFader" id="{af53df0f-885e-4cda-ae43-f6eb371e1a5b}"/>
     <object class="SFXReverbEffect" id="{981664a7-55e9-4a85-a4cc-dad89ca1d53d}">

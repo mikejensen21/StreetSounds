@@ -131,18 +131,19 @@
             <destination>{4d77c508-409f-49ac-bb01-9e2c69c939da}</destination>
             <destination>{bf85d79c-70db-494c-8990-7528642ff5bd}</destination>
             <destination>{eeabfd5d-7fe2-4d15-901a-21de8ef26c64}</destination>
+            <destination>{7a2a9835-3702-433f-ad70-1a66b7ccfe39}</destination>
             <destination>{b1748c7b-f7fe-49e7-847c-0bf702eef13b}</destination>
+            <destination>{c9c3d937-0936-43d9-a6f6-54d5bd3e835f}</destination>
             <destination>{f3deb84c-badb-48f9-8208-e8d23427ebb1}</destination>
+            <destination>{59d2356e-4419-4734-9191-b6cfbe1a9ef3}</destination>
             <destination>{12237359-7cc0-4634-887e-2f06050d242e}</destination>
+            <destination>{c3538049-3088-4e2b-957e-a7a058dac006}</destination>
             <destination>{b3f3e82d-d585-41aa-8a21-037a5e5853c7}</destination>
             <destination>{c63fcf74-4401-442a-bcec-7a8cd3ae638f}</destination>
             <destination>{3b39b441-6dc1-45f9-835a-61377cbb18e0}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{57086b28-6cf4-40a8-b6ec-6d35dfdda39e}">
-        <property name="volume">
-            <value>-6</value>
-        </property>
         <property name="name">
             <value>Audio 1</value>
         </property>
@@ -198,9 +199,19 @@
             <destination>{99f8a82e-ba12-4c88-83ff-15395add334f}</destination>
         </relationship>
     </object>
+    <object class="SingleSound" id="{7a2a9835-3702-433f-ad70-1a66b7ccfe39}">
+        <relationship name="audioFile">
+            <destination>{b62a4372-a502-46e1-a57f-72a09484011a}</destination>
+        </relationship>
+    </object>
     <object class="SingleSound" id="{b1748c7b-f7fe-49e7-847c-0bf702eef13b}">
         <relationship name="audioFile">
             <destination>{1a94e475-d9b5-414d-8ba2-3537c7d6bf3f}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{c9c3d937-0936-43d9-a6f6-54d5bd3e835f}">
+        <relationship name="audioFile">
+            <destination>{6fb948bf-575d-4e57-8f21-50758b3e6708}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{f3deb84c-badb-48f9-8208-e8d23427ebb1}">
@@ -208,9 +219,19 @@
             <destination>{70823f6b-1251-4945-aae7-e3918370e359}</destination>
         </relationship>
     </object>
+    <object class="SingleSound" id="{59d2356e-4419-4734-9191-b6cfbe1a9ef3}">
+        <relationship name="audioFile">
+            <destination>{3f1f0e4c-f7d1-4dae-ae76-0790dd4a6507}</destination>
+        </relationship>
+    </object>
     <object class="SingleSound" id="{12237359-7cc0-4634-887e-2f06050d242e}">
         <relationship name="audioFile">
             <destination>{cb51dc7a-c389-4487-8dad-7c19dae1de4b}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{c3538049-3088-4e2b-957e-a7a058dac006}">
+        <relationship name="audioFile">
+            <destination>{f9543671-5d99-4e7f-a40b-adc140f4700c}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{b3f3e82d-d585-41aa-8a21-037a5e5853c7}">
@@ -232,7 +253,6 @@
         <relationship name="effects">
             <destination>{d0b4b2cd-92eb-4f5a-97d7-f891fec89283}</destination>
             <destination>{ed3c346c-a85d-4d85-b8d1-c0ba385854b9}</destination>
-            <destination>{aafe3c53-8f06-4993-8e57-54283b08ae4b}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{3b62a00b-2690-468f-a71c-3231158cc0b7}"/>
@@ -253,17 +273,6 @@
         </property>
         <property name="wetLevel">
             <value>-46</value>
-        </property>
-    </object>
-    <object class="ParamEqEffect" id="{aafe3c53-8f06-4993-8e57-54283b08ae4b}">
-        <property name="centreFrequency">
-            <value>1250</value>
-        </property>
-        <property name="gain">
-            <value>-9.5</value>
-        </property>
-        <property name="bandwidth">
-            <value>3.44999981</value>
         </property>
     </object>
 </objects>
