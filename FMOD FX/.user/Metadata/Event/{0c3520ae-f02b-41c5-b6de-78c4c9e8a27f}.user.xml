@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{0c3520ae-f02b-41c5-b6de-78c4c9e8a27f}">
         <relationship name="uiLastParameterSelection">
             <destination>{de1fc451-6ba6-4e71-a98b-96bc7f014412}</destination>
@@ -10,24 +10,13 @@
     <object class="EventAutomatableProperties" id="{080384ef-7b58-4eae-bbc5-d8d968b89b58}"/>
     <object class="MarkerTrack" id="{e6df9708-369e-496e-844d-f16354ca40e8}"/>
     <object class="GroupTrack" id="{fa0f87a8-e6e2-435a-ab3b-39eaee159002}"/>
-    <object class="GroupTrack" id="{ca91e708-9fc6-428d-bb1c-dbc389041bc7}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{ca91e708-9fc6-428d-bb1c-dbc389041bc7}"/>
     <object class="Timeline" id="{de1fc451-6ba6-4e71-a98b-96bc7f014412}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00049626556016597509</value>
         </property>
     </object>
-    <object class="GameParameter" id="{959e6148-e044-45b1-9bda-1f7740a68898}">
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{959e6148-e044-45b1-9bda-1f7740a68898}"/>
     <object class="EventMixerMaster" id="{8c2d6b55-4d40-4366-86a0-7d2801892c03}">
         <relationship name="input">
             <destination>{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}</destination>
@@ -38,16 +27,8 @@
     <object class="MixerBusPanner" id="{a2d72b38-76c4-4e1d-9b07-903bf922f78e}"/>
     <object class="SingleSound" id="{97c274c0-561b-44c4-a894-12069bfbda1a}"/>
     <object class="EventMixerGroup" id="{46697e97-acaf-4fa4-a9b1-f63e5ef6245a}"/>
-    <object class="SingleSound" id="{5da090a3-25b0-4ebc-b68a-421df968f2de}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
-    </object>
-    <object class="SingleSound" id="{513d7bc0-0bef-404b-9475-abfeb4286269}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="SingleSound" id="{5da090a3-25b0-4ebc-b68a-421df968f2de}"/>
+    <object class="SingleSound" id="{513d7bc0-0bef-404b-9475-abfeb4286269}"/>
     <object class="EventMixerGroup" id="{e1e12ca5-48f0-4ca4-85b3-b923492b9409}"/>
     <object class="LoopRegion" id="{f06eb784-3331-4763-85ad-472754bcf121}"/>
     <object class="MixerBusEffectChain" id="{742ec4cd-b7c6-4b78-a30b-586369929d68}"/>

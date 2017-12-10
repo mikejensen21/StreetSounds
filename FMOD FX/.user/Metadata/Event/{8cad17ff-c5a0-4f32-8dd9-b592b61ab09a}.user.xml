@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{8cad17ff-c5a0-4f32-8dd9-b592b61ab09a}">
         <relationship name="selectables">
             <destination>{d6670b06-99c8-4064-90e6-84fcc5023779}</destination>
@@ -8,85 +8,52 @@
             <destination>{3e479a02-3b8b-41df-b596-4325b39b17e3}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{d6670b06-99c8-4064-90e6-84fcc5023779}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="MasterTrack" id="{d6670b06-99c8-4064-90e6-84fcc5023779}"/>
     <object class="MixerInput" id="{611b8085-7f53-4c58-a9e0-41800a2a81b9}"/>
     <object class="EventAutomatableProperties" id="{75767123-eec5-4267-9ba0-24bccd7e5953}"/>
     <object class="MarkerTrack" id="{d659e791-b580-4fb7-b987-e0c378a35bbd}"/>
-    <object class="GroupTrack" id="{763061b8-534a-460d-8437-bd7e0edc0f58}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{763061b8-534a-460d-8437-bd7e0edc0f58}"/>
     <object class="Timeline" id="{786bb43e-7f93-4853-8b87-1ed0017a3b8d}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024529844644317254</value>
         </property>
     </object>
-    <object class="GameParameter" id="{3e479a02-3b8b-41df-b596-4325b39b17e3}">
-        <property name="cursorPosition">
-            <value>0.79999995231628418</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0083752093802345051</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{3e479a02-3b8b-41df-b596-4325b39b17e3}"/>
     <object class="EventMixerMaster" id="{6723bd9c-e1a1-41cf-a496-405c61c8011e}">
         <relationship name="input">
             <destination>{9acb0b84-e3ac-4c79-a8eb-ded4184d1b93}</destination>
         </relationship>
     </object>
-    <object class="AutomationTrack" id="{9afbd0d9-e4fd-4d34-bf60-5c783ae16cfd}"/>
-    <object class="AutomationTrack" id="{1412efef-b237-4e33-b6d5-83c16a357e5f}"/>
+    <object class="AutomationTrack" id="{aa156b42-44e0-042f-06af-9a22a1fbf779}"/>
+    <object class="AutomationTrack" id="{24fc5474-122a-0728-0f1a-459bf12fe5db}"/>
     <object class="MixerBusEffectChain" id="{6de9345d-9e30-4adc-bdaf-5030d628766b}"/>
     <object class="MixerBusPanner" id="{11abd476-4f83-4448-a725-e54a4a9d36b3}"/>
-    <object class="AutomationTrack" id="{30672e42-c43e-4a6b-8f35-0f9004176277}"/>
-    <object class="AutomationTrack" id="{fdc48d3a-73f3-4ac4-aa2a-b02e25d801b9}"/>
-    <object class="AutomationTrack" id="{b99b5f12-52dd-4bdb-a98e-f29169a8280e}"/>
-    <object class="AutomationTrack" id="{c65c0ec3-73f5-4b22-a470-120e43cf1916}"/>
-    <object class="AutomationTrack" id="{ce2c9ccd-e383-427e-a171-f265688ce233}"/>
+    <object class="AutomationTrack" id="{008995d9-6423-0370-36fa-c9ca9f0df9f3}"/>
+    <object class="AutomationTrack" id="{cd2a36a1-d3ee-03df-13e5-7674bec29a3d}"/>
+    <object class="AutomationTrack" id="{8975e489-f2c0-02c0-1041-34cbf2b2b38a}"/>
+    <object class="AutomationTrack" id="{f6b2b558-d3e8-0239-1dbf-d454d8d58292}"/>
+    <object class="AutomationTrack" id="{fec22756-439e-0b65-18be-343ff39679b7}"/>
     <object class="MultiSound" id="{12603741-3fa5-4e5a-a43c-bd7421a4d5cb}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>
     <object class="MultiSound" id="{72ab11cb-32aa-4afb-af14-f47bdceb120b}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>
     <object class="MultiSound" id="{fa47d381-5b72-490c-90fb-1460cdba84e9}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>
     <object class="MultiSound" id="{f1b60826-1e17-4556-a024-39ef2cd79096}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>
     <object class="MultiSound" id="{86ad6998-6dac-4e37-ac4a-c476eabe895a}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
@@ -126,9 +93,5 @@
     <object class="HighpassEffect" id="{38a35c95-df22-42f8-8d62-cce0a9de84dd}"/>
     <object class="MixerSend" id="{218886ea-e3fe-4e86-ab23-dcc1a2578a43}"/>
     <object class="MixerBusFader" id="{52924c8e-c120-44b2-aa60-528e5223d172}"/>
-    <object class="PluginEffect" id="{41506a81-9199-4cca-be02-2bb83419a7a6}"/>
-    <object class="FloatPluginParameter" id="{1bf9b957-f140-49d0-a9d4-e48d91982978}"/>
-    <object class="FloatPluginParameter" id="{4acac25b-d881-4fef-9ec2-efcd73a2b4b7}"/>
-    <object class="FloatPluginParameter" id="{8e86d5a4-be49-4044-a09a-ed6dabf9351c}"/>
-    <object class="FloatPluginParameter" id="{b3b59351-c5d0-4384-8d16-0faa2f8f61ed}"/>
+    <object class="PitchShifterEffect" id="{41506a81-9199-4cca-be02-2bb83419a7a6}"/>
 </objects>

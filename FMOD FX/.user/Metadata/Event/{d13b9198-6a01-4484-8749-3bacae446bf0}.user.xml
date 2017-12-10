@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{d13b9198-6a01-4484-8749-3bacae446bf0}">
         <relationship name="selectables">
             <destination>{82e0ffa4-b5e8-40f1-a98a-ba3800137874}</destination>

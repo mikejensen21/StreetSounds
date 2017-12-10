@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{76186995-9be2-4755-a61f-06641f46a530}">
         <relationship name="selectables">
             <destination>{7bde6db7-8de5-4877-b824-124340aab718}</destination>
@@ -8,40 +8,26 @@
             <destination>{7600bb95-77b7-4328-8345-cda400444fb3}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{d0653d73-f713-41d9-b623-6a53c5a113d2}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="MasterTrack" id="{d0653d73-f713-41d9-b623-6a53c5a113d2}"/>
     <object class="MixerInput" id="{8cceb02b-3272-41d2-963c-06c1fead34f9}"/>
     <object class="EventAutomatableProperties" id="{8b2c319f-7511-4f15-8be7-43bf1fa68357}"/>
     <object class="MarkerTrack" id="{2417768c-0619-40c6-9f4e-8e4e951e7661}"/>
     <object class="GroupTrack" id="{a8e8d994-a1ac-4209-882b-1e8c330dec1d}"/>
     <object class="GroupTrack" id="{7bde6db7-8de5-4877-b824-124340aab718}"/>
     <object class="Timeline" id="{0d63a7a5-82fc-45c7-a483-e07294608240}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024896265560165973</value>
         </property>
     </object>
-    <object class="GameParameter" id="{7600bb95-77b7-4328-8345-cda400444fb3}">
-        <property name="cursorPosition">
-            <value>10</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{7600bb95-77b7-4328-8345-cda400444fb3}"/>
     <object class="EventMixerMaster" id="{930df220-fbde-40c8-b4cb-06c154679369}">
         <relationship name="input">
             <destination>{23d5a50d-92e1-4c05-95b6-b0c2a0641cf0}</destination>
             <destination>{49c270bb-f5e9-4e8a-9bb9-9c14f1b652f2}</destination>
         </relationship>
     </object>
-    <object class="AutomationTrack" id="{bcb9e5fa-e63b-46c7-b975-8bc4c8de05e9}"/>
-    <object class="AutomationTrack" id="{f2940bc6-0638-440a-bf6a-22cc59365f41}"/>
+    <object class="AutomationTrack" id="{8c575e61-4626-0fdc-00ba-4d9e53c49e6d}"/>
+    <object class="AutomationTrack" id="{c27ab05d-a625-0d11-06a5-e496c22cc4c5}"/>
     <object class="MixerBusEffectChain" id="{d2a5550e-43d1-454d-9ac7-d0561439eb63}"/>
     <object class="MixerBusPanner" id="{473671b7-c39a-451f-9365-0c793b52e669}"/>
     <object class="MultiSound" id="{bb9c60ca-a9d6-4e61-b6e3-5b9d8d48af08}">

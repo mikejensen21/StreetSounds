@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1d2e247c-bf80-483d-b6c9-736aa2905d2c}">
         <relationship name="uiLastParameterSelection">
             <destination>{3ca3bc0b-a87b-4070-b6bf-af1903642ebd}</destination>
@@ -11,21 +11,11 @@
     <object class="MarkerTrack" id="{a54b2526-235f-4b7d-bb8f-b4c0fea4f2d4}"/>
     <object class="GroupTrack" id="{090ed58d-c28a-47a3-9147-2df4c5655e24}"/>
     <object class="Timeline" id="{3ca3bc0b-a87b-4070-b6bf-af1903642ebd}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024896265560165973</value>
         </property>
     </object>
-    <object class="GameParameter" id="{6ac28218-39d6-4ab5-a1a6-29c0ff11b652}">
-        <property name="cursorPosition">
-            <value>4.3236514522821574</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{6ac28218-39d6-4ab5-a1a6-29c0ff11b652}"/>
     <object class="EventMixerMaster" id="{cf91e4fe-ebbb-442d-9e66-54c8a677ffad}">
         <relationship name="input">
             <destination>{eefd1ef6-1248-4f93-96a6-56c9d08cb438}</destination>

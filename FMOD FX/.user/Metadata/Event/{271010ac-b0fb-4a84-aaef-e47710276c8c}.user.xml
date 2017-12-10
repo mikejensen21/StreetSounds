@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{271010ac-b0fb-4a84-aaef-e47710276c8c}">
         <relationship name="selectables">
             <destination>{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}</destination>
@@ -12,27 +12,13 @@
     <object class="MixerInput" id="{95f43cf9-196b-4dc9-8442-dbe1434439ce}"/>
     <object class="EventAutomatableProperties" id="{289e38ee-b3c6-47b9-9feb-64d3e31ec18e}"/>
     <object class="MarkerTrack" id="{caf643de-0c04-435e-acc9-1a2c92069eee}"/>
-    <object class="GroupTrack" id="{ab14d190-6823-4e53-b5e3-f4487293b958}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{ab14d190-6823-4e53-b5e3-f4487293b958}"/>
     <object class="Timeline" id="{c62181ff-1639-4520-9271-1ca751ec79ae}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024896265560165973</value>
         </property>
     </object>
-    <object class="GameParameter" id="{ec6a8408-92eb-4e74-9047-1e9b0fac4057}">
-        <property name="cursorPosition">
-            <value>3.800829875518672</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{ec6a8408-92eb-4e74-9047-1e9b0fac4057}"/>
     <object class="EventMixerMaster" id="{f8a625bb-4802-4749-9f0e-ccbbc9257b56}">
         <relationship name="input">
             <destination>{4e53fb4e-3f5a-4787-a54c-fa28b78bc216}</destination>
@@ -40,11 +26,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{45a8aca0-332b-483e-ba5b-65ca0faf6d5d}"/>
     <object class="MixerBusPanner" id="{f2c6e1c7-885e-47d1-a97b-acea5f188eee}"/>
-    <object class="AutomationTrack" id="{e190b0e6-887f-41d5-9962-ce3ec1474e5b}"/>
+    <object class="AutomationTrack" id="{d17e0b7d-2862-08ce-20ad-08645a5dd5df}"/>
     <object class="MultiSound" id="{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

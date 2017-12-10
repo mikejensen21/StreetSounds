@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{5b586806-b17c-49c1-824a-d1569fa57966}">
         <relationship name="selectables">
             <destination>{c14bd7c6-b435-453e-84c5-f49639439dbc}</destination>
@@ -14,9 +14,6 @@
     <object class="MarkerTrack" id="{bbba5155-eaa7-450f-abbd-702428d6a983}"/>
     <object class="GroupTrack" id="{f72fccae-0f6f-4c8c-8f9e-5b513d645bac}"/>
     <object class="Timeline" id="{0491172b-3d6f-408d-97ba-c2ffbedecb06}">
-        <property name="cursorPosition">
-            <value>0.0018609958506224063</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>4.7717842323651446e-05</value>
         </property>
@@ -29,9 +26,6 @@
     <object class="MixerBusEffectChain" id="{987fdfc4-75ad-44bc-853f-09a005aa66bf}"/>
     <object class="MixerBusPanner" id="{5b0c24cd-3254-4f29-9fbd-473532c38e32}"/>
     <object class="MultiSound" id="{b1e03bc1-da9c-4012-b57d-f537bf85b1c4}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

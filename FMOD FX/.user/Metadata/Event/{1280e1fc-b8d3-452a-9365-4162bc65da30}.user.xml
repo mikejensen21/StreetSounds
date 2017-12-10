@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1280e1fc-b8d3-452a-9365-4162bc65da30}">
         <relationship name="selectables">
             <destination>{1ae5ce52-371c-45f0-a399-3246a14d7307}</destination>
@@ -26,9 +26,6 @@
     <object class="MixerBusEffectChain" id="{9421de02-cae3-417a-865e-1cdffacc4b36}"/>
     <object class="MixerBusPanner" id="{1636b590-7f41-4406-9e86-a1de86d1d1a0}"/>
     <object class="MultiSound" id="{1ae5ce52-371c-45f0-a399-3246a14d7307}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

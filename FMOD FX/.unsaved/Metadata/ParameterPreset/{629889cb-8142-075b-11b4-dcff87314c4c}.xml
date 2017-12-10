@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{629889cb-8142-075b-11b4-dcff87314c4c}">
+        <property name="name">
+            <value>Carve</value>
+        </property>
+        <relationship name="folder">
+            <destination>{000546d5-4782-0465-094a-8ccf15700136}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{229c4f6b-09c8-445c-a617-1f4575ba8fed}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{229c4f6b-09c8-445c-a617-1f4575ba8fed}">
+        <property name="minimum">
+            <value>-1</value>
+        </property>
+        <property name="isExposedRecursively">
+            <value>false</value>
+        </property>
+    </object>
+</objects>

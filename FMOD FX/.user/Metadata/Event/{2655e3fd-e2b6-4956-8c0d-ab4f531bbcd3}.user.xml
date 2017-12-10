@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{2655e3fd-e2b6-4956-8c0d-ab4f531bbcd3}">
         <relationship name="selectables">
             <destination>{3dc0cbfe-18c5-4244-bfa2-a45678db6743}</destination>
@@ -12,24 +12,13 @@
     <object class="MixerInput" id="{b87e6877-87a7-4819-a4b9-8009e64d7d2e}"/>
     <object class="EventAutomatableProperties" id="{baa1b7cc-c383-4fa9-a357-4856deecdc13}"/>
     <object class="MarkerTrack" id="{c8026a16-c173-45a8-b4ff-aa10cf1a54d3}"/>
-    <object class="GroupTrack" id="{fb222b9f-6882-4ea8-8a4e-46d5efc1ffc7}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{fb222b9f-6882-4ea8-8a4e-46d5efc1ffc7}"/>
     <object class="Timeline" id="{544ac5b9-e770-4693-89b3-b6b7ef591de2}">
         <property name="uiLastRulerScaleRatio">
             <value>0.044182621502209134</value>
         </property>
     </object>
-    <object class="GameParameter" id="{6b015fe5-859b-4e87-96df-e501cd5d5520}">
-        <property name="cursorPosition">
-            <value>1.6200294550810015</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.014727540500736377</value>
-        </property>
-    </object>
+    <object class="ParameterProxy" id="{6b015fe5-859b-4e87-96df-e501cd5d5520}"/>
     <object class="EventMixerMaster" id="{352dd55b-c42b-497c-b2e3-9c0786a624dd}">
         <relationship name="input">
             <destination>{a8a86052-fde0-4933-b3d2-bbd424483938}</destination>
@@ -37,7 +26,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{5fbb08ca-c53e-438c-970f-7632e7ab03e9}"/>
     <object class="MixerBusPanner" id="{8264ae89-0f34-41c4-bf1e-4bc7650a0ce9}"/>
-    <object class="AutomationTrack" id="{3e4ff389-6774-484d-880e-11274070b365}"/>
+    <object class="AutomationTrack" id="{0ea14812-c769-0156-31c1-d77ddb6a28e1}"/>
     <object class="SingleSound" id="{3dc0cbfe-18c5-4244-bfa2-a45678db6743}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
