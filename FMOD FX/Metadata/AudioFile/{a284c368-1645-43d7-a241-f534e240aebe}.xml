@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{a284c368-1645-43d7-a241-f534e240aebe}">
+        <property name="assetPath">
+            <value>tire_bail/wheelimpacts8.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.72396825396825393</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/wheelimpacts8 {6358a7b5-1cd2-4c41-86dc-b63a08b34a97}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{ebb5a71e-7b2d-46de-b7e9-883a45dfa582}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

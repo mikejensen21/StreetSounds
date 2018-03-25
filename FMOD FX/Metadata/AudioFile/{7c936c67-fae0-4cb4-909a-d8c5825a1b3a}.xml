@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{7c936c67-fae0-4cb4-909a-d8c5825a1b3a}">
+        <property name="assetPath">
+            <value>pedalling/pedalling1.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.28643990929705215</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/pedalling1 {020f5545-0a76-4478-b0ac-634b6f38d480}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{9275b21f-6d5b-474c-8600-3af76dc4e446}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

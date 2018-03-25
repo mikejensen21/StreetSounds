@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{82304370-662a-41f7-a214-3b71aa2a528c}">
+        <property name="assetPath">
+            <value>bike_dump_slide/slideDumps3.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>1.3752607709750566</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/slideDumps3 {7871bfe8-4f74-4035-9993-4c7ed46f372a}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{6793724c-41bb-4091-a8d5-4a8b0eb79352}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

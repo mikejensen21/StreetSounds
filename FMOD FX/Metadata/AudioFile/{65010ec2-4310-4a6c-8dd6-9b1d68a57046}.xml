@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{65010ec2-4310-4a6c-8dd6-9b1d68a57046}">
+        <property name="assetPath">
+            <value>tire_roll/slowest_roll.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>24</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/slowest_roll {ab7cc9be-dd66-4d84-a91d-b16d9dcdcf4b}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{6ac44cbc-c8c3-41df-a8c3-23420ec13c93}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{81e9686e-8655-41ed-a051-39576e129232}">
+        <property name="assetPath">
+            <value>cement_kink/cementKink6.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.10356009070294785</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/cementKink6 {5f4c05c2-3d1e-4cbd-9595-403c29297a61}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{1a2c731d-4711-4230-aa6b-18400f759078}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

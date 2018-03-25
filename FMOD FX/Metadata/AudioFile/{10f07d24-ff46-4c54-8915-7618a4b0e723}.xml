@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{10f07d24-ff46-4c54-8915-7618a4b0e723}">
+        <property name="assetPath">
+            <value>cement_slide/cementGrind2.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>4.8761904761904766</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/cementGrind2 {3340a8a4-0068-4e0f-8571-6402c32befae}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{50459705-c4bf-4ef8-a97d-630ea917d0ed}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

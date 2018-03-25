@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1d2e247c-bf80-483d-b6c9-736aa2905d2c}">
         <property name="name">
             <value>bunny_hop_single</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{8004cb98-0186-4fba-b566-e000cc18a669}</destination>
         </relationship>
@@ -33,9 +36,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{bd24b4a3-0feb-46ac-bcde-7b60965b0ec1}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{8004cb98-0186-4fba-b566-e000cc18a669}">
@@ -70,15 +70,12 @@
         </relationship>
     </object>
     <object class="Timeline" id="{3ca3bc0b-a87b-4070-b6bf-af1903642ebd}"/>
-    <object class="GameParameter" id="{6ac28218-39d6-4ab5-a1a6-29c0ff11b652}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{6ac28218-39d6-4ab5-a1a6-29c0ff11b652}">
         <relationship name="modules">
             <destination>{c8c62a3d-a198-41e4-8731-82ac186098b4}</destination>
+        </relationship>
+        <relationship name="preset">
+            <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{cf91e4fe-ebbb-442d-9e66-54c8a677ffad}">
@@ -99,9 +96,6 @@
     </object>
     <object class="MixerBusPanner" id="{041eb813-05fc-4aca-8f27-045869f9d375}"/>
     <object class="MultiSound" id="{c8c62a3d-a198-41e4-8731-82ac186098b4}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>10</value>
         </property>

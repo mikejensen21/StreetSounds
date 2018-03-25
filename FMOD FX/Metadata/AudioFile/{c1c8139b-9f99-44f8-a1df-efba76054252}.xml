@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{c1c8139b-9f99-44f8-a1df-efba76054252}">
+        <property name="assetPath">
+            <value>Music/Fly.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>173.94068027210884</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Fly {6807c177-f3b1-43ff-833f-74948418ed2a}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

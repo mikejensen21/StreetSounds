@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{c93265bf-f40b-4af2-8482-d2192c834506}">
+        <property name="assetPath">
+            <value>cement_slide/cementFast4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>2.3127891156462583</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/cementFast4 {dc9fd71f-a599-4866-813b-1c4da38cf0b9}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{50459705-c4bf-4ef8-a97d-630ea917d0ed}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

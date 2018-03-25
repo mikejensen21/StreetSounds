@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{aedea5a3-bade-4503-94b3-5f66c051cb52}">
+        <property name="assetPath">
+            <value>rail_exit/railExit4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.40673469387755101</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/railExit4 {55b21a1b-6e7b-4950-bfc4-fb5aa8877640}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{105ae3b0-8fa7-4fc3-b49c-656acee432a8}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

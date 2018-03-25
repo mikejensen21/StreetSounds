@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{2141106a-3307-4ecd-8d9f-314e3740b851}">
         <property name="name">
             <value>Catch Two Hands</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{fbbe4ff2-484e-45d9-b2ae-ce219b4020bc}</destination>
         </relationship>
@@ -30,9 +33,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{a86af8ac-03b3-4c74-bda9-c37fe7bbd0c9}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{fbbe4ff2-484e-45d9-b2ae-ce219b4020bc}">
@@ -89,8 +89,8 @@
     </object>
     <object class="MixerBusPanner" id="{72bbabdb-b0df-4821-ab38-bf783282f7e5}"/>
     <object class="MultiSound" id="{dd9f781c-b504-48d5-896f-a32df16d717a}">
-        <property name="start">
-            <value>0</value>
+        <property name="isAsync">
+            <value>true</value>
         </property>
         <property name="length">
             <value>0.050000000000000003</value>
@@ -111,7 +111,7 @@
     </object>
     <object class="EventMixerGroup" id="{7dc32b32-99e7-4dea-a6a3-40843f141092}">
         <property name="volume">
-            <value>-20.5</value>
+            <value>-22</value>
         </property>
         <property name="name">
             <value>Audio 1</value>

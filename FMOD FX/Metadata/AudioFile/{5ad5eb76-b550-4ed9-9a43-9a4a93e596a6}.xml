@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{5ad5eb76-b550-4ed9-9a43-9a4a93e596a6}">
+        <property name="assetPath">
+            <value>Music/Palms.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>237.36265306122448</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Palms {e641843e-6ed2-4b17-8441-ca99fd8fdd61}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

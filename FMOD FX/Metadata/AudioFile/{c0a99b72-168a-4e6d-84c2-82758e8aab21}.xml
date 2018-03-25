@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{c0a99b72-168a-4e6d-84c2-82758e8aab21}">
+        <property name="assetPath">
+            <value>ledge_exit/ledgeExit3.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.25380952380952382</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/ledgeExit3 {fefa93d6-95da-4ce8-9c62-0ae7e0339da7}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{a6064af8-2b1e-4ff6-82ef-67374cddc788}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

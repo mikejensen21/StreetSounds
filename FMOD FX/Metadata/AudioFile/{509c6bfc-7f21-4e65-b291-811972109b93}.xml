@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{509c6bfc-7f21-4e65-b291-811972109b93}">
+        <property name="assetPath">
+            <value>Footsteps/Walk8.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.38317460317460317</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Walk8 {e59ceab3-d786-4a48-954a-791cb8181870}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{470b165d-3ebf-4be2-b740-7a600fe5c0a1}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

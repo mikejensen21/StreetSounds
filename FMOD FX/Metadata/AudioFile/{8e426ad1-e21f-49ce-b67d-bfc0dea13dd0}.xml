@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{8e426ad1-e21f-49ce-b67d-bfc0dea13dd0}">
+        <property name="assetPath">
+            <value>rail_slide_very_slow/grindVerySlow1.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>6.0836281179138325</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/grindVerySlow1 {523c79a7-fd53-404a-b144-74ec4e9c9df6}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{ddb47771-e50a-435a-86e1-442a8cd95726}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

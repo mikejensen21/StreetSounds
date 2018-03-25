@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{0c3520ae-f02b-41c5-b6de-78c4c9e8a27f}">
         <property name="name">
             <value>Barspin</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{46e77fba-2c37-4d5a-85a1-fc254582c0a2}</destination>
         </relationship>
@@ -34,9 +37,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{a86af8ac-03b3-4c74-bda9-c37fe7bbd0c9}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{46e77fba-2c37-4d5a-85a1-fc254582c0a2}">
@@ -89,13 +89,10 @@
             <destination>{f06eb784-3331-4763-85ad-472754bcf121}</destination>
         </relationship>
     </object>
-    <object class="GameParameter" id="{959e6148-e044-45b1-9bda-1f7740a68898}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{959e6148-e044-45b1-9bda-1f7740a68898}">
+        <relationship name="preset">
+            <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
+        </relationship>
     </object>
     <object class="EventMixerMaster" id="{8c2d6b55-4d40-4366-86a0-7d2801892c03}">
         <relationship name="effectChain">
@@ -115,11 +112,11 @@
     </object>
     <object class="MixerBusPanner" id="{a2d72b38-76c4-4e1d-9b07-903bf922f78e}"/>
     <object class="SingleSound" id="{97c274c0-561b-44c4-a894-12069bfbda1a}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>0.31</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{a4fb3762-a571-4f66-9509-fbda6610f677}</destination>
@@ -152,6 +149,9 @@
         <property name="pitch">
             <value>-0.400000006</value>
         </property>
+        <property name="looping">
+            <value>true</value>
+        </property>
         <relationship name="modulators">
             <destination>{e73c689a-874c-4c64-b39b-702e1252131d}</destination>
         </relationship>
@@ -168,6 +168,9 @@
         </property>
         <property name="pitch">
             <value>-0.400000006</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="modulators">
             <destination>{32047829-a0fa-428f-957d-fe0e60cdcae7}</destination>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{808ed9aa-b714-41e9-baa2-9d6ddacb05a6}">
         <property name="name">
             <value>Ambience</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>1</value>
         </property>
+        <relationship name="folder">
+            <destination>{23b0785b-140a-41b3-88be-12ae685f1283}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{cc560087-9ad1-43f4-9b78-a6d16774aacb}</destination>
         </relationship>
@@ -29,13 +32,10 @@
             <destination>{72c9c67b-f312-478f-b39e-18aebc2574a7}</destination>
         </relationship>
         <relationship name="parameters">
-            <destination>{cb941d3e-c238-4be0-a7f4-d010fb951014}</destination>
+            <destination>{a3394ea5-38ee-07c7-3c08-448920cf2c53}</destination>
         </relationship>
         <relationship name="banks">
             <destination>{e998658d-5d82-4abd-bf9e-e871a05f6478}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{23b0785b-140a-41b3-88be-12ae685f1283}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{cc560087-9ad1-43f4-9b78-a6d16774aacb}">
@@ -73,15 +73,12 @@
         </relationship>
     </object>
     <object class="Timeline" id="{72c9c67b-f312-478f-b39e-18aebc2574a7}"/>
-    <object class="GameParameter" id="{cb941d3e-c238-4be0-a7f4-d010fb951014}">
-        <property name="name">
-            <value>velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{a3394ea5-38ee-07c7-3c08-448920cf2c53}">
         <relationship name="modules">
             <destination>{ee2c542a-dfee-49ff-9d41-ac08079c984f}</destination>
+        </relationship>
+        <relationship name="preset">
+            <destination>{cb941d3e-c238-4be0-a7f4-d010fb951014}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{5ca8aa24-83ce-4f42-adcb-9f08ff738fe1}">
@@ -102,8 +99,8 @@
     </object>
     <object class="MixerBusPanner" id="{db943ffa-73d8-4635-b27f-09c105b843d7}"/>
     <object class="SingleSound" id="{ee2c542a-dfee-49ff-9d41-ac08079c984f}">
-        <property name="start">
-            <value>0</value>
+        <property name="isCutoff">
+            <value>true</value>
         </property>
         <property name="length">
             <value>10</value>

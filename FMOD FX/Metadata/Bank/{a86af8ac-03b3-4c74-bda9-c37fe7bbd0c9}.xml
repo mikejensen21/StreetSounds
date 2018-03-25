@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Bank" id="{a86af8ac-03b3-4c74-bda9-c37fe7bbd0c9}">
         <property name="name">
             <value>Tricks</value>
         </property>
-        <relationship name="buildSettings">
-            <destination>{93277e58-172b-49eb-937f-154c60cb705f}</destination>
-        </relationship>
         <relationship name="folder">
             <destination>{303c43ab-91f0-4874-af66-09e44dc12f33}</destination>
         </relationship>
-    </object>
-    <object class="DesktopBuildSetting" id="{93277e58-172b-49eb-937f-154c60cb705f}">
-        <relationship name="compressionSettings">
-            <destination>{02af9979-eb6b-45dc-8c25-b1849b843e28}</destination>
-            <destination>{cac4f980-f884-433e-a6d9-787134b911b2}</destination>
-            <destination>{5915dd10-0d9f-4be5-81ad-a4733e25c1a6}</destination>
-        </relationship>
-        <relationship name="activeCompressionSetting">
-            <destination>{02af9979-eb6b-45dc-8c25-b1849b843e28}</destination>
-        </relationship>
-    </object>
-    <object class="LossyCompressionSetting" id="{02af9979-eb6b-45dc-8c25-b1849b843e28}">
-        <property name="type">
-            <value>Vorbis</value>
-        </property>
-        <property name="quality">
-            <value>37</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{cac4f980-f884-433e-a6d9-787134b911b2}">
-        <property name="type">
-            <value>ADPCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{5915dd10-0d9f-4be5-81ad-a4733e25c1a6}">
-        <property name="type">
-            <value>PCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
     </object>
 </objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{340963ce-6c58-40b8-bfd0-e8da563698ab}">
+        <property name="assetPath">
+            <value>cloth_sounds/clothLong4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.92938775510204086</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/clothLong4 {75b78166-5b73-4b55-923e-56eefa58499b}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{70a5fc5f-6a8a-4f96-ab74-c93ce2efbe88}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

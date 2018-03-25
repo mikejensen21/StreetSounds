@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{d6e99cff-4c28-4382-b6b9-090140a51fc0}">
+        <property name="assetPath">
+            <value>bunny_hop/shortBun2.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.65015873015873016</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/shortBun2 {5efdb3bb-81ea-44d5-a1eb-b0b06c697e59}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{fd4f21f3-d5c4-44a3-a350-03645140ceeb}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

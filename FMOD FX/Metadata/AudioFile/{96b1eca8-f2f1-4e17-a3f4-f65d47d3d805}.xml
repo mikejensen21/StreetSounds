@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{96b1eca8-f2f1-4e17-a3f4-f65d47d3d805}">
+        <property name="assetPath">
+            <value>barspin/throw.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.16365079365079366</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/throw {7697d400-3236-4723-b1a3-5bb51f54bca3}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{5151df29-0fcf-46b3-8480-e27ce23d7d2a}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

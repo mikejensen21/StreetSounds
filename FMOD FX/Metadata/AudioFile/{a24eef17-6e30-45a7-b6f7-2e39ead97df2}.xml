@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{a24eef17-6e30-45a7-b6f7-2e39ead97df2}">
+        <property name="assetPath">
+            <value>UI/scroll sound02.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.062086167800453514</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/scroll sound02 {6c74c264-2e05-4fc2-a78b-6cb9e646853c}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{bab64c5c-35d4-4856-81cc-4a9065e3907c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

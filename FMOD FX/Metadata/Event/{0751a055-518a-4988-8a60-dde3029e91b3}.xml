@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{0751a055-518a-4988-8a60-dde3029e91b3}">
         <property name="name">
             <value>tire_bail</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>1</value>
         </property>
+        <relationship name="folder">
+            <destination>{7f6f2f37-179f-4ee2-96a7-8f64620a7312}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{0cd555df-0188-4024-ae7b-d7974124bf8e}</destination>
         </relationship>
@@ -34,9 +37,6 @@
         <relationship name="banks">
             <destination>{511eac05-418f-462a-98a2-ff94dda3ce54}</destination>
         </relationship>
-        <relationship name="folder">
-            <destination>{7f6f2f37-179f-4ee2-96a7-8f64620a7312}</destination>
-        </relationship>
     </object>
     <object class="EventMixer" id="{0cd555df-0188-4024-ae7b-d7974124bf8e}">
         <relationship name="masterBus">
@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{4d245132-25b1-41ac-8d37-94917b358746}"/>
     <object class="GroupTrack" id="{e2a8b089-506d-4c07-852d-a9dfa2c1acec}">
         <relationship name="automationTracks">
-            <destination>{d04be43b-ee10-4e1f-b858-2bfcbf549799}</destination>
+            <destination>{e0a55fa0-4e0d-0704-0197-eda6244e0c1d}</destination>
         </relationship>
         <relationship name="modules">
             <destination>{f4d2e04f-71db-4221-a90c-56b0fd734d9f}</destination>
@@ -73,15 +73,12 @@
         </relationship>
     </object>
     <object class="Timeline" id="{56148c89-66f8-4986-8fcf-05f7ca90a3b0}"/>
-    <object class="GameParameter" id="{d2a345fe-e744-4e49-abc9-9f5740bbfbfe}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{d2a345fe-e744-4e49-abc9-9f5740bbfbfe}">
         <relationship name="modules">
             <destination>{f4d2e04f-71db-4221-a90c-56b0fd734d9f}</destination>
+        </relationship>
+        <relationship name="preset">
+            <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{a095b566-1a30-4eac-9cb5-62b29447c713}">
@@ -101,18 +98,12 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{6293affc-b81e-455a-8897-846dc620228a}"/>
-    <object class="AutomationTrack" id="{d04be43b-ee10-4e1f-b858-2bfcbf549799}">
-        <property name="nameOfPropertyBeingAutomated">
-            <value>decayTime</value>
-        </property>
-        <relationship name="objectBeingAutomated">
-            <destination>{eefd2e72-4ca3-45a1-8347-dfe4a3019c5f}</destination>
+    <object class="AutomationTrack" id="{e0a55fa0-4e0d-0704-0197-eda6244e0c1d}">
+        <relationship name="automator">
+            <destination>{58797729-4110-4b36-9412-3f7c1a075fb7}</destination>
         </relationship>
     </object>
     <object class="MultiSound" id="{f4d2e04f-71db-4221-a90c-56b0fd734d9f}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>10</value>
         </property>
@@ -241,6 +232,14 @@
         </property>
         <property name="wetLevel">
             <value>-46</value>
+        </property>
+        <relationship name="automators">
+            <destination>{d04be43b-ee10-4e1f-b858-2bfcbf549799}</destination>
+        </relationship>
+    </object>
+    <object class="Automator" id="{d04be43b-ee10-4e1f-b858-2bfcbf549799}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>decayTime</value>
         </property>
     </object>
 </objects>

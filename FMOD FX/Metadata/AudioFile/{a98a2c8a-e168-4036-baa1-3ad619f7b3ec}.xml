@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{a98a2c8a-e168-4036-baa1-3ad619f7b3ec}">
+        <property name="assetPath">
+            <value>Music/Black Star.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>242.64938775510205</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Black Star {f2714567-0cca-48af-851a-a6b9fa30f7e2}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

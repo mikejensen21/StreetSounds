@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{ea736407-2b9a-4cfc-b88a-dc1dd38bf536}">
+        <property name="assetPath">
+            <value>Music/Gain Wah.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>158.9189342403628</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Gain Wah {1596a656-4140-4193-b10b-d9f01865b9be}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

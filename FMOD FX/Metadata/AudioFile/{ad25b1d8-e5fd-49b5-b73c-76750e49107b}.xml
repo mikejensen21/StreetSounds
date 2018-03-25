@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{ad25b1d8-e5fd-49b5-b73c-76750e49107b}">
+        <property name="assetPath">
+            <value>rail_slide_single/med single slide 3.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>3.4261451247165531</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/med single slide 3 {230f5e5d-4433-4420-9288-39cd64fea12d}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{f4f7ea3c-7904-49cf-a907-d99f5c37f9c5}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

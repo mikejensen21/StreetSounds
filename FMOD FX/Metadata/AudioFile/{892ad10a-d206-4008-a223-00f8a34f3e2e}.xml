@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{892ad10a-d206-4008-a223-00f8a34f3e2e}">
+        <property name="assetPath">
+            <value>outdoor birds.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
         <property name="frequencyInKHz">
             <value>96</value>
         </property>
@@ -10,10 +16,7 @@
         <property name="length">
             <value>105.69776041666667</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/outdoor birds {d5511a13-ce8e-44ac-8cec-176ec8ae3c25}.wav</value>
-        </property>
-        <relationship name="container">
+        <relationship name="masterAssetFolder">
             <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>

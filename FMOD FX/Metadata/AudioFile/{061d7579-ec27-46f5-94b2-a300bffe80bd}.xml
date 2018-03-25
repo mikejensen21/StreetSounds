@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{061d7579-ec27-46f5-94b2-a300bffe80bd}">
+        <property name="assetPath">
+            <value>Music/Gossip Chops.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>172.42718820861677</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Gossip Chops {a3e557d0-7886-4b0d-bd03-5cadff69b223}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d70b18ba-ef53-4fe7-8651-36ed589ae40c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{5984b2ef-6364-453c-b348-47f670f3a79c}">
+        <property name="assetPath">
+            <value>ledge_impact/ledge_impact10.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.98836734693877548</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/ledge_impact10 {f3fcf6c9-c4a8-4dec-82b9-3eccc06ba45f}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{03fab6bc-ee37-4e76-bbce-b89c12dff075}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

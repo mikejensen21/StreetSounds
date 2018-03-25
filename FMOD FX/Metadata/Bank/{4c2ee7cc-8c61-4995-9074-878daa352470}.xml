@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Bank" id="{4c2ee7cc-8c61-4995-9074-878daa352470}">
         <property name="name">
             <value>Checkme Bank</value>
         </property>
-        <relationship name="buildSettings">
-            <destination>{8114e2f0-0cc5-46b0-97fa-f25d13f9da9c}</destination>
-        </relationship>
         <relationship name="folder">
             <destination>{303c43ab-91f0-4874-af66-09e44dc12f33}</destination>
         </relationship>
-    </object>
-    <object class="DesktopBuildSetting" id="{8114e2f0-0cc5-46b0-97fa-f25d13f9da9c}">
-        <relationship name="compressionSettings">
-            <destination>{effc37ff-0126-42cb-aef5-468fb3439283}</destination>
-            <destination>{1937a37a-8dc2-4ab1-8752-96316ead66f6}</destination>
-            <destination>{0ac01829-caac-40b8-ade7-9e35db166769}</destination>
-        </relationship>
-        <relationship name="activeCompressionSetting">
-            <destination>{effc37ff-0126-42cb-aef5-468fb3439283}</destination>
-        </relationship>
-    </object>
-    <object class="LossyCompressionSetting" id="{effc37ff-0126-42cb-aef5-468fb3439283}">
-        <property name="type">
-            <value>Vorbis</value>
-        </property>
-        <property name="quality">
-            <value>37</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{1937a37a-8dc2-4ab1-8752-96316ead66f6}">
-        <property name="type">
-            <value>ADPCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{0ac01829-caac-40b8-ade7-9e35db166769}">
-        <property name="type">
-            <value>PCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
     </object>
 </objects>

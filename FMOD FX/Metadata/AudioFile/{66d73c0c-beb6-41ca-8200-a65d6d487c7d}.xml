@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{66d73c0c-beb6-41ca-8200-a65d6d487c7d}">
+        <property name="assetPath">
+            <value>foot_to_pedal/foot2pedal4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.49555555555555558</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/foot2pedal4 {f7e68d6f-8614-4ceb-a31b-1b9317d49aa1}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{28931f6b-af0f-481e-b89b-e4f861dba321}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

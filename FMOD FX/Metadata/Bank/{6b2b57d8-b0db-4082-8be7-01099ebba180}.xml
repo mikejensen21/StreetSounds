@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Bank" id="{6b2b57d8-b0db-4082-8be7-01099ebba180}">
         <property name="name">
             <value>Pedalling</value>
         </property>
-        <relationship name="buildSettings">
-            <destination>{1ba143a1-4b07-4b16-9da6-5bfbdff81541}</destination>
-        </relationship>
         <relationship name="folder">
             <destination>{303c43ab-91f0-4874-af66-09e44dc12f33}</destination>
         </relationship>
-    </object>
-    <object class="DesktopBuildSetting" id="{1ba143a1-4b07-4b16-9da6-5bfbdff81541}">
-        <relationship name="compressionSettings">
-            <destination>{e98d4b18-e471-4c6b-9e69-8a007ee66d36}</destination>
-            <destination>{bc062f35-7ed1-4ebe-8190-104be40416fd}</destination>
-            <destination>{2e697f60-5c66-47a8-a484-dce29b826fef}</destination>
-        </relationship>
-        <relationship name="activeCompressionSetting">
-            <destination>{e98d4b18-e471-4c6b-9e69-8a007ee66d36}</destination>
-        </relationship>
-    </object>
-    <object class="LossyCompressionSetting" id="{e98d4b18-e471-4c6b-9e69-8a007ee66d36}">
-        <property name="type">
-            <value>Vorbis</value>
-        </property>
-        <property name="quality">
-            <value>37</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{bc062f35-7ed1-4ebe-8190-104be40416fd}">
-        <property name="type">
-            <value>ADPCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
-    </object>
-    <object class="PCMCompressionSetting" id="{2e697f60-5c66-47a8-a484-dce29b826fef}">
-        <property name="type">
-            <value>PCM</value>
-        </property>
-        <property name="sampleRate">
-            <value>48000</value>
-        </property>
     </object>
 </objects>

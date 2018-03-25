@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{2cf0f95a-a147-4b2a-9157-a17cb2f9f885}">
+        <property name="assetPath">
+            <value>manual_pullup/manualPullup3.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.89925170068027216</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/manualPullup3 {85d81f98-614f-4fdb-aa72-68d0f0f07334}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{398f6df6-0cf6-4dcd-9cbd-4127292aa32c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

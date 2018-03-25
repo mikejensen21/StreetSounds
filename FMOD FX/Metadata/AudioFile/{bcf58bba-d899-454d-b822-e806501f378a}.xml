@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{bcf58bba-d899-454d-b822-e806501f378a}">
+        <property name="assetPath">
+            <value>landing_1aat/softSingleLanding4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.099251700680272115</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/softSingleLanding4 {0155f1ee-7695-4ca6-b6fc-602f411e8f09}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{cab37698-6911-493e-977e-68c3e3291ed7}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

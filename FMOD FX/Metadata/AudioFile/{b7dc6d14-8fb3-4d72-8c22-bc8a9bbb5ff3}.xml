@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{b7dc6d14-8fb3-4d72-8c22-bc8a9bbb5ff3}">
+        <property name="assetPath">
+            <value>bunny_hop/dubBun4.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.66718820861678008</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/dubBun4 {5ead5a36-bc10-4123-aef7-d7494f05b9f1}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{fd4f21f3-d5c4-44a3-a350-03645140ceeb}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{169f52a6-f8e7-4898-85bd-243bd9f56e38}">
+        <property name="assetPath">
+            <value>push_slide/pushslide2.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>4.1121088435374151</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/pushslide2 {a375c176-fb26-4af1-b4f2-0a5781b64fc1}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{1b9dd09b-fe20-4171-9d11-d9c82301cf1e}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

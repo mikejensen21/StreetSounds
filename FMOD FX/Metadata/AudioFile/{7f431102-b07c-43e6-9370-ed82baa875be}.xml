@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{7f431102-b07c-43e6-9370-ed82baa875be}">
+        <property name="assetPath">
+            <value>sliders/slider12.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.77004535147392295</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/slider12 {de4d7aa7-3a83-4670-a4f9-83064d943ca5}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{e1cde526-7fd9-42d3-9fdf-d9f5659404de}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

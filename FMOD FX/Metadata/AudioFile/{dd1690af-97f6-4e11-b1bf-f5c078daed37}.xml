@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{dd1690af-97f6-4e11-b1bf-f5c078daed37}">
+        <property name="assetPath">
+            <value>peg_ground_impact/Peg impacts-26.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>1.45702947845805</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/Peg impacts-26 {2229078f-eede-4731-81dd-78424c516d95}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{bc7dab3c-c263-4f2d-ad21-5cd18e42557d}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

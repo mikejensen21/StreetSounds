@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{271010ac-b0fb-4a84-aaef-e47710276c8c}">
         <property name="name">
             <value>slider</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{46381ebd-5a6a-44c0-8222-cbe374a4c48a}</destination>
         </relationship>
@@ -34,9 +37,6 @@
         <relationship name="banks">
             <destination>{bd24b4a3-0feb-46ac-bcde-7b60965b0ec1}</destination>
         </relationship>
-        <relationship name="folder">
-            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
-        </relationship>
     </object>
     <object class="EventMixer" id="{46381ebd-5a6a-44c0-8222-cbe374a4c48a}">
         <relationship name="masterBus">
@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{caf643de-0c04-435e-acc9-1a2c92069eee}"/>
     <object class="GroupTrack" id="{ab14d190-6823-4e53-b5e3-f4487293b958}">
         <relationship name="automationTracks">
-            <destination>{e190b0e6-887f-41d5-9962-ce3ec1474e5b}</destination>
+            <destination>{d17e0b7d-2862-08ce-20ad-08645a5dd5df}</destination>
         </relationship>
         <relationship name="modules">
             <destination>{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}</destination>
@@ -73,15 +73,12 @@
         </relationship>
     </object>
     <object class="Timeline" id="{c62181ff-1639-4520-9271-1ca751ec79ae}"/>
-    <object class="GameParameter" id="{ec6a8408-92eb-4e74-9047-1e9b0fac4057}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{ec6a8408-92eb-4e74-9047-1e9b0fac4057}">
         <relationship name="modules">
             <destination>{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}</destination>
+        </relationship>
+        <relationship name="preset">
+            <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{f8a625bb-4802-4749-9f0e-ccbbc9257b56}">
@@ -101,18 +98,12 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{f2c6e1c7-885e-47d1-a97b-acea5f188eee}"/>
-    <object class="AutomationTrack" id="{e190b0e6-887f-41d5-9962-ce3ec1474e5b}">
-        <property name="nameOfPropertyBeingAutomated">
-            <value>decayTime</value>
-        </property>
-        <relationship name="objectBeingAutomated">
-            <destination>{e1aa2db0-0fee-493f-855d-4195c0419021}</destination>
+    <object class="AutomationTrack" id="{d17e0b7d-2862-08ce-20ad-08645a5dd5df}">
+        <relationship name="automator">
+            <destination>{58797729-4110-4b36-9412-3f7c1a075fb7}</destination>
         </relationship>
     </object>
     <object class="MultiSound" id="{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>10</value>
         </property>
@@ -120,7 +111,7 @@
             <value>1</value>
         </property>
         <property name="volume">
-            <value>-12</value>
+            <value>-24</value>
         </property>
         <property name="pitch">
             <value>-0.399999976</value>
@@ -231,6 +222,14 @@
         </property>
         <property name="wetLevel">
             <value>-46</value>
+        </property>
+        <relationship name="automators">
+            <destination>{e190b0e6-887f-41d5-9962-ce3ec1474e5b}</destination>
+        </relationship>
+    </object>
+    <object class="Automator" id="{e190b0e6-887f-41d5-9962-ce3ec1474e5b}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>decayTime</value>
         </property>
     </object>
 </objects>

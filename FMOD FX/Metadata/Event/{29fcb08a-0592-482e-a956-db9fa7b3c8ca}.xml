@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{29fcb08a-0592-482e-a956-db9fa7b3c8ca}">
         <property name="name">
             <value>Launch2</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
+        <relationship name="folder">
+            <destination>{cc083448-ee72-4887-bbd4-387b20b31af8}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{3ef8a650-017b-4ed0-98cf-17b24fc94650}</destination>
         </relationship>
@@ -30,9 +33,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{1bbb8e33-7b8b-4f44-949b-9986c27eca5a}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{cc083448-ee72-4887-bbd4-387b20b31af8}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{3ef8a650-017b-4ed0-98cf-17b24fc94650}">
@@ -89,17 +89,20 @@
     </object>
     <object class="MixerBusPanner" id="{11548152-aafe-4f2e-a936-bce8c7e28f51}"/>
     <object class="SingleSound" id="{ac714a78-be22-4d02-a576-e86c8ce81532}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>3.3649659863945578</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{5d9c9944-1346-4675-8488-6994d6633029}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{1490ee5d-553f-4e6a-881a-97b6714b629c}">
+        <property name="volume">
+            <value>-13</value>
+        </property>
         <property name="name">
             <value>Audio 1</value>
         </property>
@@ -116,7 +119,6 @@
     <object class="MixerBusEffectChain" id="{9040dad3-1115-4ca2-a2f1-7fdf66b1cac8}">
         <relationship name="effects">
             <destination>{505d1f01-6ade-4ca9-8758-819a530c8a8a}</destination>
-            <destination>{3584e21e-717e-4554-9275-f05d97bfbd90}</destination>
             <destination>{f94119cc-2810-4885-a899-1d3ec99c736d}</destination>
         </relationship>
     </object>
@@ -129,10 +131,9 @@
     </object>
     <object class="MixerBusPanner" id="{714db2e5-1aed-42e5-af08-bfd3025dd092}"/>
     <object class="MixerBusFader" id="{505d1f01-6ade-4ca9-8758-819a530c8a8a}"/>
-    <object class="SpatialiserEffect" id="{3584e21e-717e-4554-9275-f05d97bfbd90}"/>
     <object class="MixerSend" id="{f94119cc-2810-4885-a899-1d3ec99c736d}">
         <property name="inputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{bb01e6a7-2883-4c9b-8275-e12ceefc6449}</destination>

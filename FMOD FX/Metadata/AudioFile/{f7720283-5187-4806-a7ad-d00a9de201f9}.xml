@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{f7720283-5187-4806-a7ad-d00a9de201f9}">
+        <property name="assetPath">
+            <value>landing_both/landing2Tires1.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.83591836734693881</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/landing2Tires1 {e901b4bd-4712-4fde-a5bb-bae6622d625e}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{9fb17272-4090-4b10-b5ec-cda9c174fc46}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

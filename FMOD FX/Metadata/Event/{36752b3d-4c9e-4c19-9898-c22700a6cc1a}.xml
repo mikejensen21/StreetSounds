@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{36752b3d-4c9e-4c19-9898-c22700a6cc1a}">
         <property name="name">
             <value>single_impact</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{c3530ae6-5357-437b-8f3b-d7bd07f0dd27}</destination>
         </relationship>
@@ -33,9 +36,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{bd24b4a3-0feb-46ac-bcde-7b60965b0ec1}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{4af018fc-411e-476b-a986-a70bf58a8105}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{c3530ae6-5357-437b-8f3b-d7bd07f0dd27}">
@@ -71,16 +71,13 @@
         </relationship>
     </object>
     <object class="Timeline" id="{52a6ea1f-82b9-43f4-a64d-6fd7e642bfd9}"/>
-    <object class="GameParameter" id="{d4f80e3d-2279-4a52-a591-6cbf8aedb9fc}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
+    <object class="ParameterProxy" id="{d4f80e3d-2279-4a52-a591-6cbf8aedb9fc}">
         <relationship name="modules">
             <destination>{d40e1b43-eecc-4fce-a952-cc7ffb14fa15}</destination>
             <destination>{6f142bb4-074b-43f4-a056-079dd019a523}</destination>
+        </relationship>
+        <relationship name="preset">
+            <destination>{d310d15b-cec7-4308-933e-4d9d3d414bc3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{bfcd5c5b-33cb-4533-9baa-42c706ec5197}">
@@ -101,9 +98,6 @@
     </object>
     <object class="MixerBusPanner" id="{a11db5be-96da-4139-af93-073668223988}"/>
     <object class="MultiSound" id="{d40e1b43-eecc-4fce-a952-cc7ffb14fa15}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>5.5</value>
         </property>

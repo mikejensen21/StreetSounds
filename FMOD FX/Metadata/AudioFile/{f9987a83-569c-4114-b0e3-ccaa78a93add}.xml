@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{f9987a83-569c-4114-b0e3-ccaa78a93add}">
+        <property name="assetPath">
+            <value>rail_slide_double/slowSlide3.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>4.4988662131519277</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/slowSlide3 {cf71b374-175f-47e2-8f71-20064c09e8d3}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{d1ac42b1-28df-493c-bb04-91a8cfbc8609}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

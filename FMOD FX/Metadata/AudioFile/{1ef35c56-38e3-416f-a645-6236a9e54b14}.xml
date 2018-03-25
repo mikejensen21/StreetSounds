@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{1ef35c56-38e3-416f-a645-6236a9e54b14}">
+        <property name="assetPath">
+            <value>UI/back.wav</value>
+        </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -10,11 +13,8 @@
         <property name="length">
             <value>0.50566893424036286</value>
         </property>
-        <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/back {01119c16-ddc2-473b-ad5a-847802ef48a1}.wav</value>
-        </property>
-        <relationship name="container">
-            <destination>{bab64c5c-35d4-4856-81cc-4a9065e3907c}</destination>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
         </relationship>
     </object>
 </objects>

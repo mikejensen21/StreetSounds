@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{e034c52f-bcff-434e-9606-f73d0e87b7e5}">
         <property name="name">
             <value>Crankflip</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{0a3e0445-4d9f-41ad-888b-cd5c8b655862}</destination>
         </relationship>
@@ -31,9 +34,6 @@
         </relationship>
         <relationship name="banks">
             <destination>{a86af8ac-03b3-4c74-bda9-c37fe7bbd0c9}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{65296faf-4b17-422b-8da3-2c88d0252f18}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{0a3e0445-4d9f-41ad-888b-cd5c8b655862}">
@@ -102,11 +102,11 @@
     </object>
     <object class="MixerBusPanner" id="{e8f57df8-819f-4966-b43a-c9738598c9f4}"/>
     <object class="SingleSound" id="{d13d952a-2778-46dd-a0da-428294cbe5bf}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>0.48031746031746031</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{6b529a39-50f7-4bd6-a215-518e1f2bf06b}</destination>
@@ -135,6 +135,9 @@
         </property>
         <property name="length">
             <value>2.1729071685919799</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{62e71cb0-d2fb-4cdb-86c0-979787f0036b}</destination>
