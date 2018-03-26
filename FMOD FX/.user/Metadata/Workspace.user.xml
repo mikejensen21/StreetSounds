@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
+<objects serializationModel="Studio.01.07.00">
     <object class="Workspace" id="{48be9dbc-41e1-4e4e-beaf-8e9e57b15dfd}">
         <relationship name="projectSettings">
             <destination>{52f356d9-b12c-46f4-bfd7-e9cc4710d38c}</destination>
         </relationship>
-        <relationship name="changelist">
-            <destination>{261b906e-c9b3-48b7-a2be-c6154b722db7}</destination>
-        </relationship>
-        <relationship name="profilerSessionFolder">
-            <destination>{06f73361-8ef3-4ada-8e73-04b7862a98b6}</destination>
-        </relationship>
     </object>
-    <object class="ProjectSettings" id="{52f356d9-b12c-46f4-bfd7-e9cc4710d38c}">
-        <relationship name="activePlatform">
-            <destination>{353a875d-4677-4c49-b9d0-da91429e4a3f}</destination>
-        </relationship>
-    </object>
-    <object class="WorkspaceChangelist" id="{261b906e-c9b3-48b7-a2be-c6154b722db7}"/>
+    <object class="ProjectSettings" id="{52f356d9-b12c-46f4-bfd7-e9cc4710d38c}"/>
+    <object class="AudioBinManager" id="{89349812-e468-47ab-b414-e2553e622fa9}"/>
 </objects>

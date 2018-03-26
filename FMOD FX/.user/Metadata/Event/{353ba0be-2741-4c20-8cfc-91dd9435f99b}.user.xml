@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
+<objects serializationModel="Studio.01.07.00">
     <object class="Event" id="{353ba0be-2741-4c20-8cfc-91dd9435f99b}">
         <relationship name="selectables">
-            <destination>{b938027b-2fdc-4380-bc07-bd0c15ef6778}</destination>
+            <destination>{f411614a-5cba-4891-a950-50998c4fcc40}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{ce87b418-bbbb-4655-8b3a-c153e68716de}</destination>
@@ -12,15 +12,28 @@
     <object class="MixerInput" id="{e7f487e5-3596-41ed-b67c-9a977c3b210e}"/>
     <object class="EventAutomatableProperties" id="{7f813285-de53-46d6-aba3-1257d0ea6b54}"/>
     <object class="MarkerTrack" id="{de881220-7263-41b1-b2b4-06760b4b2cb8}"/>
-    <object class="GroupTrack" id="{bf68ec38-4257-4915-bbc2-278914fec361}"/>
-    <object class="Timeline" id="{b3f62d44-a9e3-44fc-9ca1-f128d1784164}">
-        <property name="uiLastRulerScaleRatio">
-            <value>0.02461033634126333</value>
+    <object class="GroupTrack" id="{bf68ec38-4257-4915-bbc2-278914fec361}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
         </property>
     </object>
-    <object class="ParameterProxy" id="{ce87b418-bbbb-4655-8b3a-c153e68716de}">
+    <object class="Timeline" id="{b3f62d44-a9e3-44fc-9ca1-f128d1784164}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0082034454470877767</value>
+            <value>0.024896265560165973</value>
+        </property>
+    </object>
+    <object class="GameParameter" id="{ce87b418-bbbb-4655-8b3a-c153e68716de}">
+        <property name="cursorPosition">
+            <value>3.7999997138977051</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082987551867219917</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>480</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{13a297a6-1850-4290-9ace-7f2e0ccbaf0e}">
@@ -30,10 +43,13 @@
     </object>
     <object class="MixerBusEffectChain" id="{ece4b8f1-9421-4bdd-8e6d-8d5f143b5515}"/>
     <object class="MixerBusPanner" id="{9c82ba0e-1b54-450e-a18e-020303145c29}"/>
-    <object class="AutomationTrack" id="{44ff9fb3-8a93-0ca8-3749-bde9eee50c3c}"/>
-    <object class="AutomationTrack" id="{b9668d47-01ed-016d-3e24-0f1238949d3c}"/>
-    <object class="AutomationTrack" id="{2f67a087-c830-0310-03cb-c1ae93f8e529}"/>
+    <object class="AutomationTrack" id="{74112428-2a8e-45b3-8e86-7bb375ff97b8}"/>
+    <object class="AutomationTrack" id="{898836dc-a1f0-4876-87eb-c948a38e06b8}"/>
+    <object class="AutomationTrack" id="{1f891b1c-682d-4a0b-ba04-07f408e27ead}"/>
     <object class="MultiSound" id="{f411614a-5cba-4891-a950-50998c4fcc40}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
@@ -48,8 +64,8 @@
     <object class="MixerBusEffectChain" id="{8b87b9c4-1cb8-47d0-9f43-f0df99165a0e}"/>
     <object class="MixerBusPanner" id="{9f6cef79-fbf2-4599-b7c8-4c2b48ab2ca1}"/>
     <object class="MixerBusFader" id="{12696cac-b484-4690-8736-8f280fbe83c7}"/>
+    <object class="SpatialiserEffect" id="{7155e9ad-8fa1-4579-9977-98e577b7ec04}"/>
     <object class="MixerSend" id="{9185abec-a2f4-4e64-9ad7-945dc8381de1}"/>
-    <object class="SpatialiserEffect" id="{56cf5555-42b5-4a12-acb8-ceea824de04a}"/>
     <object class="MixerBusFader" id="{ed05c457-2237-4c1b-b19b-4f27075367ad}"/>
     <object class="SFXReverbEffect" id="{d2a75a87-7e49-4a27-868e-931a062b4960}"/>
 </objects>
