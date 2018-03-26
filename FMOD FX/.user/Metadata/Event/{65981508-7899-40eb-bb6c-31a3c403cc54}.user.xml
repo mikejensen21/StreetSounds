@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{65981508-7899-40eb-bb6c-31a3c403cc54}">
         <relationship name="uiLastParameterSelection">
-            <destination>{efeb42f5-6296-405e-b31a-2fdef145a03a}</destination>
+            <destination>{b13eb170-2b0f-4c18-8308-eeda1a4b0d83}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{dc28c1ee-282e-4d96-94fa-c2d34e774792}"/>
     <object class="MixerInput" id="{1939bd0d-17fe-49ed-8e70-205f56b95c2e}"/>
     <object class="EventAutomatableProperties" id="{72926b26-d8c2-4962-81e7-09aaeda2dd6c}"/>
     <object class="MarkerTrack" id="{420d1b45-8f2b-49be-b2c9-84c27e0c0b4d}"/>
-    <object class="GroupTrack" id="{5d3e1499-f21e-4429-a7b3-1c476d9ae117}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{5d3e1499-f21e-4429-a7b3-1c476d9ae117}"/>
     <object class="Timeline" id="{b13eb170-2b0f-4c18-8308-eeda1a4b0d83}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024896265560165973</value>
-        </property>
-    </object>
-    <object class="GameParameter" id="{efeb42f5-6296-405e-b31a-2fdef145a03a}">
-        <property name="cursorPosition">
-            <value>2.4149377593360994</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{5aa4eed8-bbb9-45f3-8acb-2b2581737d50}">
@@ -41,9 +26,6 @@
     <object class="AutomationTrack" id="{1193893b-88ef-4312-a812-3c60fdcb2557}"/>
     <object class="AutomationTrack" id="{e3be3a7e-6ecd-4751-a5bf-950317656b9a}"/>
     <object class="MultiSound" id="{846d84ed-94c0-48e6-a5eb-c7881311e2ec}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
