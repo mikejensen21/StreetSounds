@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{9986be3f-a3e5-4384-87fd-e88e34a130bd}">
-        <relationship name="selectables">
-            <destination>{3d04b035-5f26-4e60-a49f-7423698b98e8}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{26903ac0-a704-423a-be6d-d53556a957c3}</destination>
+            <destination>{11f016cc-f750-4e25-82fc-13eee5cb16ae}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{040cc51f-e650-48c0-b221-099a8fe566e1}"/>
     <object class="MixerInput" id="{95bedab6-d705-40da-bef3-b0ec74f0ed16}"/>
     <object class="EventAutomatableProperties" id="{8314f7dc-4730-4874-905a-e4938e17a71c}"/>
     <object class="MarkerTrack" id="{17cd5b9d-147d-4015-b3c5-7c929749833e}"/>
-    <object class="GroupTrack" id="{3928e495-adfa-4ee4-86ff-1edddec548ec}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{3928e495-adfa-4ee4-86ff-1edddec548ec}"/>
     <object class="Timeline" id="{11f016cc-f750-4e25-82fc-13eee5cb16ae}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.024896265560165973</value>
-        </property>
-    </object>
-    <object class="GameParameter" id="{26903ac0-a704-423a-be6d-d53556a957c3}">
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082987551867219917</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{5920eb3d-8020-46e8-b1af-f1cdf3077528}">
@@ -39,9 +24,6 @@
     <object class="MixerBusPanner" id="{a7ca901b-7ffa-4f88-a431-1e1567bc0a90}"/>
     <object class="AutomationTrack" id="{b114d199-abb6-4ea2-bf1d-d6cdc05d6b7c}"/>
     <object class="MultiSound" id="{3d04b035-5f26-4e60-a49f-7423698b98e8}">
-        <property name="uiModulationDrawerVisible">
-            <value>true</value>
-        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

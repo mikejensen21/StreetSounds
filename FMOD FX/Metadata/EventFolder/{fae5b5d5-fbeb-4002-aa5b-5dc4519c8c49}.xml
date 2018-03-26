@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="EventFolder" id="{fae5b5d5-fbeb-4002-aa5b-5dc4519c8c49}">
         <property name="name">
             <value>Character Sounds</value>
