@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{bcbda523-66a8-4210-894d-e4e25fa88387}">
         <relationship name="selectables">
-            <destination>{0ea79660-c01c-4eb0-9123-9db41634b5e0}</destination>
+            <destination>{def62555-b9fc-4aa1-bd89-76beec365c8f}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{382c6e13-7976-4deb-9955-00be7f9c3b88}</destination>
@@ -20,7 +20,7 @@
     </object>
     <object class="ParameterProxy" id="{382c6e13-7976-4deb-9955-00be7f9c3b88}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013736263736263736</value>
+            <value>0.0034680813052534558</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{eeb9ab1e-9a7a-466f-8bed-04e582165724}">
@@ -105,7 +105,11 @@
             <value>true</value>
         </property>
     </object>
-    <object class="SingleSound" id="{7de66d29-c5b5-4ec4-bbdd-6ea70948692b}"/>
+    <object class="SingleSound" id="{7de66d29-c5b5-4ec4-bbdd-6ea70948692b}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="SingleSound" id="{58b60db9-1183-4153-80e1-7254166640a6}"/>
     <object class="EventMixerGroup" id="{72e448c9-f6c0-4dcb-aa9b-9b89b931e3e6}"/>
     <object class="MixerBusEffectChain" id="{f51336f5-7aa1-4a35-9115-2d57e3823b41}"/>

@@ -414,6 +414,9 @@
         <property name="length">
             <value>0.39999999999999997</value>
         </property>
+        <property name="maxVoices">
+            <value>1</value>
+        </property>
         <property name="volume">
             <value>-14</value>
         </property>
