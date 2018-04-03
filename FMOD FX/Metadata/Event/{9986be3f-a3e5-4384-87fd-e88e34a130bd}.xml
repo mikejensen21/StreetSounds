@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.07.00">
+<objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{9986be3f-a3e5-4384-87fd-e88e34a130bd}">
         <property name="name">
             <value>character Efforts</value>
@@ -7,6 +7,9 @@
         <property name="outputFormat">
             <value>2</value>
         </property>
+        <relationship name="folder">
+            <destination>{fae5b5d5-fbeb-4002-aa5b-5dc4519c8c49}</destination>
+        </relationship>
         <relationship name="mixer">
             <destination>{bdc005ce-d9e0-4f8b-8505-ec94d4b9502b}</destination>
         </relationship>
@@ -28,12 +31,6 @@
         <relationship name="timeline">
             <destination>{11f016cc-f750-4e25-82fc-13eee5cb16ae}</destination>
         </relationship>
-        <relationship name="parameters">
-            <destination>{26903ac0-a704-423a-be6d-d53556a957c3}</destination>
-        </relationship>
-        <relationship name="folder">
-            <destination>{fae5b5d5-fbeb-4002-aa5b-5dc4519c8c49}</destination>
-        </relationship>
     </object>
     <object class="EventMixer" id="{bdc005ce-d9e0-4f8b-8505-ec94d4b9502b}">
         <relationship name="masterBus">
@@ -53,7 +50,7 @@
             <destination>{a7ca901b-7ffa-4f88-a431-1e1567bc0a90}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{475b81ea-52af-4984-9862-6dd581a6a516}</destination>
+            <destination>{ce9f4da3-b886-48a2-9713-f2754c3bf746}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{8314f7dc-4730-4874-905a-e4938e17a71c}"/>
@@ -70,17 +67,6 @@
         </relationship>
     </object>
     <object class="Timeline" id="{11f016cc-f750-4e25-82fc-13eee5cb16ae}"/>
-    <object class="GameParameter" id="{26903ac0-a704-423a-be6d-d53556a957c3}">
-        <property name="name">
-            <value>Velocity</value>
-        </property>
-        <property name="maximum">
-            <value>10</value>
-        </property>
-        <relationship name="modules">
-            <destination>{3d04b035-5f26-4e60-a49f-7423698b98e8}</destination>
-        </relationship>
-    </object>
     <object class="EventMixerMaster" id="{5920eb3d-8020-46e8-b1af-f1cdf3077528}">
         <relationship name="effectChain">
             <destination>{5340b1a3-e5d7-4c3c-a3c6-1587527ce376}</destination>
@@ -98,18 +84,8 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{a7ca901b-7ffa-4f88-a431-1e1567bc0a90}"/>
-    <object class="AutomationTrack" id="{b114d199-abb6-4ea2-bf1d-d6cdc05d6b7c}">
-        <property name="nameOfPropertyBeingAutomated">
-            <value>decayTime</value>
-        </property>
-        <relationship name="objectBeingAutomated">
-            <destination>{c5d2bd3d-1e7e-4efc-8738-e38440c9bf2a}</destination>
-        </relationship>
-    </object>
+    <object class="AutomationTrack" id="{b114d199-abb6-4ea2-bf1d-d6cdc05d6b7c}"/>
     <object class="MultiSound" id="{3d04b035-5f26-4e60-a49f-7423698b98e8}">
-        <property name="start">
-            <value>0</value>
-        </property>
         <property name="length">
             <value>10</value>
         </property>
