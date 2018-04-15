@@ -18,7 +18,11 @@
             <value>0.024896265560165973</value>
         </property>
     </object>
-    <object class="ParameterProxy" id="{52c96fb7-14c8-4080-9773-b5251c973683}"/>
+    <object class="ParameterProxy" id="{52c96fb7-14c8-4080-9773-b5251c973683}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.013531799729364006</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{492079c9-aa77-4ccc-8e8e-0341fc56c1e5}">
         <relationship name="input">
             <destination>{aececfd9-6dd7-4089-a345-d442b3837b82}</destination>
