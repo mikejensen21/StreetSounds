@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
         <relationship name="selectables">
-            <destination>{731cc6e2-0233-4ee1-ad4c-a1ca37aac912}</destination>
+            <destination>{2225aa57-ce93-44ee-b5f7-aafc6ca427ca}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{163dbe17-52dd-4fac-aae3-2246dd86bbd2}</destination>
+            <destination>{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{b1130068-1bc9-4551-b6bc-31f5758fc1c7}"/>
@@ -30,7 +30,12 @@
     </object>
     <object class="ParameterProxy" id="{72a95422-b7b1-4ea6-90e9-ee72f278a31e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.001567398119122257</value>
+            <value>0.0013736263736263737</value>
+        </property>
+    </object>
+    <object class="ParameterProxy" id="{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.013736263736263736</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
@@ -49,6 +54,7 @@
     <object class="AutomationTrack" id="{f1bc117d-3811-0a77-3998-f45cdc8f6ce8}"/>
     <object class="AutomationTrack" id="{0909771d-2f85-02f5-027a-e1ade33b2b3c}"/>
     <object class="AutomationTrack" id="{60bac966-6b9c-07fa-20dc-77868eb59367}"/>
+    <object class="AutomationTrack" id="{9fd94236-121f-44ea-801d-7db28f2acde2}"/>
     <object class="SingleSound" id="{195fdd75-d0ef-4890-8ace-a972c069705e}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
@@ -91,4 +97,5 @@
     <object class="SpatialiserEffect" id="{4d60ee4c-21be-467a-9b81-f9745b22f6f9}"/>
     <object class="MixerSend" id="{1c707d55-397d-418f-887c-cdc7cf894957}"/>
     <object class="MixerBusFader" id="{a405f45e-c600-4b10-acfe-3aa450ddc625}"/>
+    <object class="MultibandEqEffect" id="{80172769-22e4-4503-84f6-ed94b7c27fd2}"/>
 </objects>
