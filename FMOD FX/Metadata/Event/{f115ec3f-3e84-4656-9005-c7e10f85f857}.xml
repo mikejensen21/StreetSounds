@@ -480,8 +480,8 @@
         <property name="volume">
             <value>-36</value>
         </property>
-        <property name="randomized">
-            <value>false</value>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="sounds">
             <destination>{83501aeb-5c46-4262-9404-2846eb89648a}</destination>
@@ -712,9 +712,6 @@
     </object>
     <object class="MixerBusPanner" id="{c8813d2c-a38f-4a70-97d2-a49a3c46593f}"/>
     <object class="SingleSound" id="{83501aeb-5c46-4262-9404-2846eb89648a}">
-        <property name="looping">
-            <value>true</value>
-        </property>
         <relationship name="audioFile">
             <destination>{52ceca2e-973f-4186-b417-88e7f9fbe23c}</destination>
         </relationship>
