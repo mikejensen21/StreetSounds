@@ -411,8 +411,11 @@
         <property name="isCutoff">
             <value>true</value>
         </property>
+        <property name="start">
+            <value>0.59065934065934067</value>
+        </property>
         <property name="length">
-            <value>10</value>
+            <value>0.80934065934065935</value>
         </property>
         <property name="looping">
             <value>true</value>
@@ -450,8 +453,11 @@
         <property name="isCutoff">
             <value>true</value>
         </property>
+        <property name="start">
+            <value>1.6000000000000001</value>
+        </property>
         <property name="length">
-            <value>10</value>
+            <value>0.85000000000000009</value>
         </property>
         <property name="maxVoices">
             <value>1</value>
