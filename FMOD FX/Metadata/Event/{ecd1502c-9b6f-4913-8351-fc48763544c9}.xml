@@ -103,7 +103,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="sounds">
             <destination>{f4fd081a-c48d-4db9-bb80-c425ac6ef37a}</destination>

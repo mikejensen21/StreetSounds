@@ -102,7 +102,7 @@
             <value>5.5</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="fadeOutCurve">
             <destination>{be151977-6842-4f1e-8b1f-6056a871d656}</destination>
@@ -123,7 +123,7 @@
             <value>5.7000000000000002</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <relationship name="fadeInCurve">
             <destination>{bb2a531d-962b-490d-a788-fec01c69afd2}</destination>

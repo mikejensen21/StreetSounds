@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
         <relationship name="selectables">
-            <destination>{7c9d12a2-3b90-4e07-9d82-d91821c97c13}</destination>
+            <destination>{802651f7-d619-4b99-9e9b-49334ca35fcc}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}</destination>
+            <destination>{96f9ecbd-632c-4625-aa49-58318427531e}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{b1130068-1bc9-4551-b6bc-31f5758fc1c7}">
@@ -29,22 +29,22 @@
     </object>
     <object class="Timeline" id="{da468d6f-9899-45f6-b510-757a49abdf2d}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.024834437086092714</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013736263736263736</value>
+            <value>0.0082034454470877767</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{163dbe17-52dd-4fac-aae3-2246dd86bbd2}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0027472527472527475</value>
+            <value>0.0016406890894175555</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{72a95422-b7b1-4ea6-90e9-ee72f278a31e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0013736263736263737</value>
+            <value>0.00082034454470877774</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}">
@@ -52,7 +52,7 @@
             <value>0.0039301149958255472</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>208</value>
+            <value>27</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">

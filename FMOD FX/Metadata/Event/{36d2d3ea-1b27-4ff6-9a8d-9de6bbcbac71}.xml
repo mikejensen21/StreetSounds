@@ -110,7 +110,7 @@
             <value>5</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="pitch">
             <value>-0.399999976</value>
@@ -136,6 +136,9 @@
         </property>
         <property name="length">
             <value>5</value>
+        </property>
+        <property name="maxVoices">
+            <value>2</value>
         </property>
         <relationship name="sounds">
             <destination>{2f9a5532-423e-4b15-8ed6-2ddaeed9eb16}</destination>

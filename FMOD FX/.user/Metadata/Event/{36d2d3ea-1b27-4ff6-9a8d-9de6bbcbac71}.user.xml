@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{36d2d3ea-1b27-4ff6-9a8d-9de6bbcbac71}">
         <relationship name="selectables">
-            <destination>{64893016-e240-4db0-81fd-c4e58aab6d8f}</destination>
+            <destination>{2bfc1dbc-c8a5-429a-b8a1-3a92c0e5caa9}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{ecc8b1f8-79f1-4de6-af22-95ff30dadf79}</destination>
@@ -15,10 +15,14 @@
     <object class="GroupTrack" id="{c8579905-af66-43e0-8312-b8e327feb0cb}"/>
     <object class="Timeline" id="{a821b543-ff13-45f3-9d3b-7ae0a73ca74b}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.02461033634126333</value>
         </property>
     </object>
-    <object class="ParameterProxy" id="{ecc8b1f8-79f1-4de6-af22-95ff30dadf79}"/>
+    <object class="ParameterProxy" id="{ecc8b1f8-79f1-4de6-af22-95ff30dadf79}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082034454470877767</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{158d5041-95e6-4070-a26b-f0d7296d01a9}">
         <relationship name="input">
             <destination>{a7bbf6e2-4fa8-4a57-9fa0-a3ce8faeaa94}</destination>
@@ -32,7 +36,11 @@
             <value>true</value>
         </property>
     </object>
-    <object class="MultiSound" id="{2bfc1dbc-c8a5-429a-b8a1-3a92c0e5caa9}"/>
+    <object class="MultiSound" id="{2bfc1dbc-c8a5-429a-b8a1-3a92c0e5caa9}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{a7bbf6e2-4fa8-4a57-9fa0-a3ce8faeaa94}"/>
     <object class="MixerBusEffectChain" id="{ac65beff-a078-45d6-80ea-eb6d4734b075}"/>
     <object class="MixerBusPanner" id="{7a578112-ae61-464f-87d5-91421789287c}"/>

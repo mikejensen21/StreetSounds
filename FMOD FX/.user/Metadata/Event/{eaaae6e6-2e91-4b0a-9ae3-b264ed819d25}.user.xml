@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{eaaae6e6-2e91-4b0a-9ae3-b264ed819d25}">
+        <relationship name="selectables">
+            <destination>{1f35cf5c-a00c-48f9-bc8b-2128494b7d9b}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{04a38792-79e0-4913-8bf0-b71ee68aeae6}</destination>
         </relationship>
@@ -12,10 +15,14 @@
     <object class="GroupTrack" id="{91e2940f-a762-4ac4-98b0-cd0f5ab0958d}"/>
     <object class="Timeline" id="{09bcff61-39cf-41d3-b11c-079d4cee1431}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.02461033634126333</value>
         </property>
     </object>
-    <object class="ParameterProxy" id="{04a38792-79e0-4913-8bf0-b71ee68aeae6}"/>
+    <object class="ParameterProxy" id="{04a38792-79e0-4913-8bf0-b71ee68aeae6}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082034454470877767</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{372b461e-b420-4ab0-abdf-f8548f007619}">
         <relationship name="input">
             <destination>{c2a6506f-8fc0-4067-95aa-d9d9b9fb4ef4}</destination>
@@ -23,7 +30,11 @@
     </object>
     <object class="MixerBusEffectChain" id="{068625d6-d238-44c4-b2cb-8953e2225f4a}"/>
     <object class="MixerBusPanner" id="{4a507913-aaca-4567-962d-d244ae42c802}"/>
-    <object class="MultiSound" id="{1f35cf5c-a00c-48f9-bc8b-2128494b7d9b}"/>
+    <object class="MultiSound" id="{1f35cf5c-a00c-48f9-bc8b-2128494b7d9b}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{c2a6506f-8fc0-4067-95aa-d9d9b9fb4ef4}"/>
     <object class="MixerBusEffectChain" id="{e5b242ac-c905-41b8-98f3-8d74792042a8}"/>
     <object class="MixerBusPanner" id="{750f991e-e470-4c81-9a4f-edfd723fc373}"/>

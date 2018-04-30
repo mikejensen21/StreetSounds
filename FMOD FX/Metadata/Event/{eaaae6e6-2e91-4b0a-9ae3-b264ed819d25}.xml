@@ -99,6 +99,9 @@
         <property name="length">
             <value>10</value>
         </property>
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
         <relationship name="sounds">
             <destination>{20231d80-8688-4614-8a1e-c9e2a0646055}</destination>
             <destination>{f33ecd17-adec-4e92-a591-ce1c446f3569}</destination>

@@ -15,10 +15,14 @@
     <object class="GroupTrack" id="{b4184363-8aa8-4753-bc86-2c28561c7999}"/>
     <object class="Timeline" id="{7687b5f1-a683-4a4e-a0c7-7f843a85ae1b}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.02461033634126333</value>
         </property>
     </object>
-    <object class="ParameterProxy" id="{65d3781d-322d-4ddf-a9c4-3b41cb888571}"/>
+    <object class="ParameterProxy" id="{65d3781d-322d-4ddf-a9c4-3b41cb888571}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082034454470877767</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{d00bce6e-93aa-4e0c-9d50-568ee5980b2a}">
         <relationship name="input">
             <destination>{ccc909df-8d93-4fc2-94a4-fb3d2ab907b2}</destination>

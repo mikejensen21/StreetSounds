@@ -181,16 +181,16 @@
             <value>true</value>
         </property>
         <property name="start">
-            <value>2.4000000000000004</value>
+            <value>2.4100000000000001</value>
         </property>
         <property name="length">
-            <value>1.899999999999999</value>
+            <value>1.8899999999999992</value>
         </property>
         <property name="voiceStealing">
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>4</value>
@@ -233,7 +233,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>med slide</value>
@@ -279,7 +279,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>3</value>
@@ -322,7 +322,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>1</value>
@@ -365,7 +365,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>2</value>
@@ -408,7 +408,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>5</value>
@@ -454,7 +454,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>5</value>
@@ -500,7 +500,7 @@
             <value>3</value>
         </property>
         <property name="maxVoices">
-            <value>1</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>med slide</value>
@@ -989,7 +989,7 @@
     </object>
     <object class="AutomationPoint" id="{e69cdd42-874c-42a5-8359-dff5f04cc966}">
         <property name="position">
-            <value>2.4000000000000004</value>
+            <value>2.4100000000000001</value>
         </property>
         <property name="value">
             <value>0</value>
@@ -1102,7 +1102,7 @@
     </object>
     <object class="AutomationPoint" id="{d8e9e5c3-834c-479b-8d00-553c0d3fbd24}">
         <property name="position">
-            <value>2.4000000000000004</value>
+            <value>2.4100000000000001</value>
         </property>
         <property name="value">
             <value>1</value>

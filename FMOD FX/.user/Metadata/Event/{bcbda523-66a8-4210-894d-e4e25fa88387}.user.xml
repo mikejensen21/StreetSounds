@@ -5,7 +5,7 @@
             <destination>{f6af9ffe-503d-4092-9e11-929b39e6514f}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{382c6e13-7976-4deb-9955-00be7f9c3b88}</destination>
+            <destination>{e070463e-c6f7-443c-b2bc-de1608aedcb4}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{ef0ab89c-30dc-4c4e-af9d-2437a326bfaa}"/>
@@ -15,7 +15,7 @@
     <object class="GroupTrack" id="{55c220e7-7b69-482a-8f95-4b6d5a333e8d}"/>
     <object class="Timeline" id="{e070463e-c6f7-443c-b2bc-de1608aedcb4}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.024834437086092714</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{382c6e13-7976-4deb-9955-00be7f9c3b88}">
@@ -23,17 +23,17 @@
             <value>0.0034121308258358734</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>2203</value>
+            <value>1712</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{eeb9ab1e-9a7a-466f-8bed-04e582165724}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0027472527472527475</value>
+            <value>0.0016556291390728477</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{b34b33bd-13ab-4028-9c29-a74e2171998a}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0013736263736263737</value>
+            <value>0.00082781456953642384</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{0a301f2e-1c42-4f49-9748-923b9a05c8a4}">

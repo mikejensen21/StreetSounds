@@ -19,12 +19,12 @@
     </object>
     <object class="Timeline" id="{b3f62d44-a9e3-44fc-9ca1-f128d1784164}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024896265560165973</value>
+            <value>0.02461033634126333</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{ce87b418-bbbb-4655-8b3a-c153e68716de}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013531799729364006</value>
+            <value>0.0082034454470877767</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{13a297a6-1850-4290-9ace-7f2e0ccbaf0e}">
