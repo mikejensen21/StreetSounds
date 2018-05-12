@@ -5,7 +5,7 @@
             <destination>{b352dcb6-7dc3-46a0-b4cd-b94b5f4eeda2}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{52c96fb7-14c8-4080-9773-b5251c973683}</destination>
+            <destination>{39dc613c-99c2-4060-b64b-488797160da1}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{56cef2f2-6db9-4943-b6a1-dcc71dc0d210}"/>
@@ -21,6 +21,11 @@
     <object class="ParameterProxy" id="{52c96fb7-14c8-4080-9773-b5251c973683}">
         <property name="uiLastRulerScaleRatio">
             <value>0.0082034454470877767</value>
+        </property>
+    </object>
+    <object class="ParameterProxy" id="{39dc613c-99c2-4060-b64b-488797160da1}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.013531799729364006</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{492079c9-aa77-4ccc-8e8e-0341fc56c1e5}">

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
         <relationship name="selectables">
-            <destination>{802651f7-d619-4b99-9e9b-49334ca35fcc}</destination>
+            <destination>{4c580351-7685-41e9-a50e-b4b62c8a617e}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{96f9ecbd-632c-4625-aa49-58318427531e}</destination>
@@ -22,11 +22,7 @@
         </property>
     </object>
     <object class="GroupTrack" id="{616d238c-ef2d-4727-8d11-b6dea81914be}"/>
-    <object class="GroupTrack" id="{7c9d12a2-3b90-4e07-9d82-d91821c97c13}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{7c9d12a2-3b90-4e07-9d82-d91821c97c13}"/>
     <object class="Timeline" id="{da468d6f-9899-45f6-b510-757a49abdf2d}">
         <property name="uiLastRulerScaleRatio">
             <value>0.024834437086092714</value>
@@ -34,7 +30,7 @@
     </object>
     <object class="ParameterProxy" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0082034454470877767</value>
+            <value>0.013736263736263736</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{163dbe17-52dd-4fac-aae3-2246dd86bbd2}">
@@ -52,7 +48,7 @@
             <value>0.0039301149958255472</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>27</value>
+            <value>37</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
@@ -110,6 +106,7 @@
     </object>
     <object class="EventMixerGroup" id="{27533cdf-132f-4f2a-bdcb-ac20b04464bc}"/>
     <object class="AutomationTrack" id="{448d7fff-675a-4e21-a4ac-ae94ffa30191}"/>
+    <object class="AutomationTrack" id="{03cb93a9-7d9f-4e90-ae1e-8b80b9a22fb9}"/>
     <object class="MultiSound" id="{0a159eb7-4bfe-4f1a-bccf-3a1ad7b1f0e3}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
