@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1c104b6f-e4d1-478a-bbaa-ba53bb9b2ee6}">
         <relationship name="selectables">
-            <destination>{4984bfda-5717-410c-80ea-b54194e96e89}</destination>
+            <destination>{f4ed60e1-60b1-48a0-9dd4-91259c989622}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{6966235d-c1d4-40c9-b4ea-d09d595beb31}</destination>
+            <destination>{95515a59-712b-4c29-8248-558eff117161}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{6c574429-ac22-422b-899f-0caff86dd235}"/>
@@ -58,5 +58,10 @@
     <object class="SpatialiserEffect" id="{2de5b5b8-6383-4350-9ce2-40447d543597}"/>
     <object class="MixerSend" id="{5eee9d5a-7fdb-4709-8f61-1f5f0e80d757}"/>
     <object class="MixerBusFader" id="{5b8ec0f2-a07b-415b-808f-8897f20a9026}"/>
-    <object class="SFXReverbEffect" id="{fa6a8880-6a6b-4511-b540-6bb4eeac9020}"/>
+    <object class="ThreeEQEffect" id="{820f552f-b243-4adc-9b2b-567acd5e7904}"/>
+    <object class="SFXReverbEffect" id="{fa6a8880-6a6b-4511-b540-6bb4eeac9020}">
+        <property name="uiModulationDrawerVisible">
+            <value>false</value>
+        </property>
+    </object>
 </objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{271010ac-b0fb-4a84-aaef-e47710276c8c}">
         <relationship name="selectables">
-            <destination>{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}</destination>
+            <destination>{ab14d190-6823-4e53-b5e3-f4487293b958}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{29dc02cb-3b46-4bd4-a836-463510b9382e}</destination>
@@ -20,7 +20,7 @@
     </object>
     <object class="ParameterProxy" id="{ec6a8408-92eb-4e74-9047-1e9b0fac4057}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0082034454470877767</value>
+            <value>0.013531799729364006</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{29dc02cb-3b46-4bd4-a836-463510b9382e}">
@@ -36,6 +36,7 @@
     <object class="MixerBusEffectChain" id="{45a8aca0-332b-483e-ba5b-65ca0faf6d5d}"/>
     <object class="MixerBusPanner" id="{f2c6e1c7-885e-47d1-a97b-acea5f188eee}"/>
     <object class="AutomationTrack" id="{d17e0b7d-2862-08ce-20ad-08645a5dd5df}"/>
+    <object class="AutomationTrack" id="{b81f43bc-a27f-402c-8c1e-142a04dca237}"/>
     <object class="MultiSound" id="{f3b83384-4e24-4e9d-9d06-3f485aa33ec3}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
@@ -59,5 +60,10 @@
     <object class="SpatialiserEffect" id="{c2f3fe22-aec1-4c31-ba76-cb0111fbb113}"/>
     <object class="MixerSend" id="{5f21f526-85e4-46c5-b568-7baa3e0e85ea}"/>
     <object class="MixerBusFader" id="{204c99e6-3286-48d4-b40f-eb4cbf061a2f}"/>
-    <object class="SFXReverbEffect" id="{e1aa2db0-0fee-493f-855d-4195c0419021}"/>
+    <object class="ThreeEQEffect" id="{25c47eef-91ea-4656-be0e-9dce678b1844}"/>
+    <object class="SFXReverbEffect" id="{e1aa2db0-0fee-493f-855d-4195c0419021}">
+        <property name="uiModulationDrawerVisible">
+            <value>false</value>
+        </property>
+    </object>
 </objects>
