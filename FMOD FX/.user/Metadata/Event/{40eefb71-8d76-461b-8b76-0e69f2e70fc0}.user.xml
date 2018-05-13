@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{40eefb71-8d76-461b-8b76-0e69f2e70fc0}">
         <relationship name="selectables">
-            <destination>{c38c8145-e6dd-4fda-bb23-f1e65c50d030}</destination>
+            <destination>{6d7f2a16-bae5-488f-a5e9-8d9e95b3ff23}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{fa8d6538-e12e-4380-ad87-52bbfa6b4a02}</destination>
@@ -20,12 +20,15 @@
     </object>
     <object class="ParameterProxy" id="{b0ca5ad7-57c6-432f-8f63-d37bafbd57cd}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0082034454470877767</value>
+            <value>0.013736263736263736</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{fa8d6538-e12e-4380-ad87-52bbfa6b4a02}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013736263736263736</value>
+            <value>0.0020978860590943572</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>642</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{037b0d1d-8e5f-4bb5-94a6-1fbb6fecda56}">
@@ -39,6 +42,8 @@
     <object class="AutomationTrack" id="{f003186e-5362-0aea-2dda-1a94eeed28fa}"/>
     <object class="AutomationTrack" id="{06004dcd-aa3b-04bd-13a3-4bea946450eb}"/>
     <object class="AutomationTrack" id="{610ae47c-3f4b-00cb-3e49-cbfa98b0da0a}"/>
+    <object class="AutomationTrack" id="{497743fc-2404-4161-8d22-733160f31243}"/>
+    <object class="AutomationTrack" id="{ccf728e2-fd1f-4d56-98fb-6e9d2812e88d}"/>
     <object class="MultiSound" id="{c38c8145-e6dd-4fda-bb23-f1e65c50d030}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
