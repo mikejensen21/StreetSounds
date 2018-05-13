@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{36752b3d-4c9e-4c19-9898-c22700a6cc1a}">
+        <relationship name="selectables">
+            <destination>{4e788871-833c-4fc9-b0cf-e5c9dc94b872}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{32d64daa-616e-4f0c-8d1b-7627bd244d75}</destination>
         </relationship>
@@ -19,10 +22,16 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.0082034454470877767</value>
         </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>3</value>
+        </property>
     </object>
     <object class="ParameterProxy" id="{32d64daa-616e-4f0c-8d1b-7627bd244d75}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013531799729364006</value>
+            <value>0.0025494269643040993</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>513</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{bfcd5c5b-33cb-4533-9baa-42c706ec5197}">
@@ -32,6 +41,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{35df47fb-1b9d-4c2e-8eee-bca39a3e2d9c}"/>
     <object class="MixerBusPanner" id="{a11db5be-96da-4139-af93-073668223988}"/>
+    <object class="AutomationTrack" id="{9d3f2c38-5ca5-4155-ae04-3f6ebb88f1e2}"/>
+    <object class="AutomationTrack" id="{2d9583db-8cd1-4b99-af26-82b43f24bf6d}"/>
     <object class="MultiSound" id="{d40e1b43-eecc-4fce-a952-cc7ffb14fa15}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
@@ -62,4 +73,5 @@
     <object class="SpatialiserEffect" id="{8d4bbd8c-b23a-42eb-aea5-fb88fa45ef9f}"/>
     <object class="MixerSend" id="{69fa77f7-4b2c-44f4-821f-71ee4fe0e8c3}"/>
     <object class="MixerBusFader" id="{69d27fda-72be-4bbb-b499-2263fa23c3e7}"/>
+    <object class="ThreeEQEffect" id="{cdd1f46b-e0a0-4882-a81e-842dfeec145b}"/>
 </objects>
