@@ -60,9 +60,6 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.0092115013644027098</value>
         </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>21</value>
-        </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">
         <property name="uiModulationDrawerVisible">
