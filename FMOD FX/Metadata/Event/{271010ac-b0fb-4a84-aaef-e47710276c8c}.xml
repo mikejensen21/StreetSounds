@@ -69,6 +69,8 @@
         <relationship name="modules">
             <destination>{86858299-3170-4c42-8c9f-628d66eea436}</destination>
             <destination>{00aa8547-e219-48f8-b711-862e25429dfe}</destination>
+            <destination>{422e8000-04ad-4fbc-8b8b-87b3c8144ed9}</destination>
+            <destination>{10702fcb-78a6-4bab-b0aa-51fd97de5b12}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{4e53fb4e-3f5a-4787-a54c-fa28b78bc216}</destination>
@@ -84,6 +86,8 @@
         <relationship name="modules">
             <destination>{86858299-3170-4c42-8c9f-628d66eea436}</destination>
             <destination>{00aa8547-e219-48f8-b711-862e25429dfe}</destination>
+            <destination>{422e8000-04ad-4fbc-8b8b-87b3c8144ed9}</destination>
+            <destination>{10702fcb-78a6-4bab-b0aa-51fd97de5b12}</destination>
         </relationship>
         <relationship name="preset">
             <destination>{f40cb434-8409-40eb-a6c6-886417ba2157}</destination>
@@ -112,6 +116,9 @@
         </relationship>
     </object>
     <object class="MultiSound" id="{86858299-3170-4c42-8c9f-628d66eea436}">
+        <property name="length">
+            <value>0.5</value>
+        </property>
         <property name="maxVoices">
             <value>2</value>
         </property>
@@ -136,10 +143,13 @@
     </object>
     <object class="MultiSound" id="{00aa8547-e219-48f8-b711-862e25429dfe}">
         <property name="start">
-            <value>2</value>
+            <value>2.5</value>
         </property>
         <property name="maxVoices">
             <value>2</value>
+        </property>
+        <property name="name">
+            <value>Dirt</value>
         </property>
         <property name="volume">
             <value>-24</value>
@@ -158,12 +168,58 @@
             <destination>{5af0a538-224c-4e1d-bbd1-376a61373fb3}</destination>
         </relationship>
     </object>
+    <object class="MultiSound" id="{422e8000-04ad-4fbc-8b8b-87b3c8144ed9}">
+        <property name="start">
+            <value>0.5</value>
+        </property>
+        <property name="length">
+            <value>0.99502677888293811</value>
+        </property>
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+        <property name="name">
+            <value>Wood</value>
+        </property>
+        <property name="volume">
+            <value>-24</value>
+        </property>
+        <property name="pitch">
+            <value>-0.399999976</value>
+        </property>
+        <relationship name="modulators">
+            <destination>{f2850965-98bd-4d90-b297-7e69d687bb72}</destination>
+        </relationship>
+    </object>
+    <object class="MultiSound" id="{10702fcb-78a6-4bab-b0aa-51fd97de5b12}">
+        <property name="start">
+            <value>1.4950267788829381</value>
+        </property>
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+        <property name="name">
+            <value>Grass</value>
+        </property>
+        <property name="volume">
+            <value>-24</value>
+        </property>
+        <property name="pitch">
+            <value>-0.5</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
+        </property>
+        <relationship name="modulators">
+            <destination>{38fcf713-ea6a-460b-bc25-b150157408e6}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerGroup" id="{4e53fb4e-3f5a-4787-a54c-fa28b78bc216}">
         <property name="volume">
             <value>-8</value>
         </property>
         <property name="name">
-            <value>Cement Slider</value>
+            <value>Surfaces</value>
         </property>
         <relationship name="effectChain">
             <destination>{ae74f16a-c122-485e-a5ec-24a5ed446278}</destination>
@@ -244,6 +300,22 @@
         <relationship name="audioFile">
             <destination>{e9fa832c-3916-4ef3-83d0-1fa2d68a19a8}</destination>
         </relationship>
+    </object>
+    <object class="RandomizerModulator" id="{f2850965-98bd-4d90-b297-7e69d687bb72}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>1.5</value>
+        </property>
+    </object>
+    <object class="RandomizerModulator" id="{38fcf713-ea6a-460b-bc25-b150157408e6}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>1.5</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{ae74f16a-c122-485e-a5ec-24a5ed446278}">
         <relationship name="effects">

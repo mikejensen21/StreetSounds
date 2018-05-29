@@ -66,6 +66,8 @@
         <relationship name="modules">
             <destination>{c82b0de8-e316-4cf0-bcc8-07068276b18e}</destination>
             <destination>{8691bf69-7001-43b8-9acc-b35986b96076}</destination>
+            <destination>{99acde2d-c4de-4e16-a617-be69aabf093f}</destination>
+            <destination>{30537141-8902-40a6-a3cd-ccb4c17d6acc}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{02f82d1b-b666-4fe5-9a98-e8420218996f}</destination>
@@ -81,6 +83,8 @@
         <relationship name="modules">
             <destination>{c82b0de8-e316-4cf0-bcc8-07068276b18e}</destination>
             <destination>{8691bf69-7001-43b8-9acc-b35986b96076}</destination>
+            <destination>{99acde2d-c4de-4e16-a617-be69aabf093f}</destination>
+            <destination>{30537141-8902-40a6-a3cd-ccb4c17d6acc}</destination>
         </relationship>
         <relationship name="preset">
             <destination>{f40cb434-8409-40eb-a6c6-886417ba2157}</destination>
@@ -105,7 +109,7 @@
     <object class="MixerBusPanner" id="{a11db5be-96da-4139-af93-073668223988}"/>
     <object class="MultiSound" id="{c82b0de8-e316-4cf0-bcc8-07068276b18e}">
         <property name="start">
-            <value>2</value>
+            <value>2.5</value>
         </property>
         <property name="length">
             <value>0.99999999999999978</value>
@@ -129,7 +133,7 @@
     </object>
     <object class="MultiSound" id="{8691bf69-7001-43b8-9acc-b35986b96076}">
         <property name="length">
-            <value>1.1000000000000001</value>
+            <value>0.5</value>
         </property>
         <property name="maxVoices">
             <value>2</value>
@@ -145,9 +149,37 @@
             <destination>{6c98643c-396c-420e-abd6-fdc29000477d}</destination>
         </relationship>
     </object>
+    <object class="MultiSound" id="{99acde2d-c4de-4e16-a617-be69aabf093f}">
+        <property name="start">
+            <value>0.504973221117062</value>
+        </property>
+        <property name="length">
+            <value>0.99502677888293789</value>
+        </property>
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+        <property name="name">
+            <value>Wood</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{30537141-8902-40a6-a3cd-ccb4c17d6acc}">
+        <property name="start">
+            <value>1.5</value>
+        </property>
+        <property name="length">
+            <value>0.99502677888293789</value>
+        </property>
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+        <property name="name">
+            <value>Grass</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{02f82d1b-b666-4fe5-9a98-e8420218996f}">
         <property name="name">
-            <value>Cement Impact</value>
+            <value>Surfaces</value>
         </property>
         <relationship name="effectChain">
             <destination>{1cfd3bd0-7107-4dd1-83de-3d018f831fe6}</destination>

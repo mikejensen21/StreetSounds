@@ -17,7 +17,11 @@
             <value>false</value>
         </property>
     </object>
-    <object class="GroupTrack" id="{4c8ff7e4-c6cc-421e-9605-430d1acd9f52}"/>
+    <object class="GroupTrack" id="{4c8ff7e4-c6cc-421e-9605-430d1acd9f52}">
+        <property name="uiAutomationTracksVisible">
+            <value>false</value>
+        </property>
+    </object>
     <object class="Timeline" id="{9fd290e9-f509-4608-b846-2d2bddc92e61}">
         <property name="uiLastRulerScaleRatio">
             <value>0.023148148148148147</value>

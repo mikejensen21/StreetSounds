@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1c104b6f-e4d1-478a-bbaa-ba53bb9b2ee6}">
+        <relationship name="selectables">
+            <destination>{004f9d65-47d9-40e9-b66b-a2ce85209343}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{6966235d-c1d4-40c9-b4ea-d09d595beb31}</destination>
         </relationship>
@@ -44,7 +47,17 @@
             <value>true</value>
         </property>
     </object>
-    <object class="MultiSound" id="{bce96685-d4a0-46da-bc84-5e93b15c1f89}">
+    <object class="MultiSound" id="{eb88e0a9-66b2-4f42-bae5-1d9d0068e759}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{004f9d65-47d9-40e9-b66b-a2ce85209343}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{ae5c137a-55af-4618-a231-989fa5bdfb7c}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
@@ -59,14 +72,21 @@
     <object class="SingleSound" id="{b0d5f749-0f2a-4f0d-9442-d8039d0eb076}"/>
     <object class="SingleSound" id="{25f7a823-08c1-4eb2-b68b-3aa78ff4d7a1}"/>
     <object class="SingleSound" id="{3c7926ad-26a6-4554-b762-b5dfdfcc008a}"/>
-    <object class="RandomizerModulator" id="{0661d45b-763c-4718-9039-be6806cade44}"/>
-    <object class="SingleSound" id="{2659602d-2f06-4342-ae41-8e2e0b14661f}"/>
-    <object class="SingleSound" id="{bed164ed-0538-42da-a042-53780409c55d}"/>
-    <object class="SingleSound" id="{d3ce2978-a0b4-439c-b23b-cea8494e9304}"/>
-    <object class="SingleSound" id="{124d1c86-a5f9-4d51-8d0c-0749d43550b5}"/>
-    <object class="SingleSound" id="{cdb6f04f-2bc9-4844-a216-ca931018e1be}"/>
-    <object class="SingleSound" id="{9c5c77e0-5e3e-4e88-8415-83c88dc3236e}"/>
-    <object class="SingleSound" id="{08e6e34d-d1e3-44d4-8f81-a80c5c400cae}"/>
+    <object class="RandomizerModulator" id="{ce674f82-5012-49a0-a024-3975bdf040d1}"/>
+    <object class="SingleSound" id="{db01ce70-73a9-4342-b547-1de12b893cf9}"/>
+    <object class="SingleSound" id="{4bd59aef-2b02-496e-9c28-e0aadb8e8d92}"/>
+    <object class="SingleSound" id="{a1aa147a-af70-4e8e-a068-fa991f11f7b2}"/>
+    <object class="SingleSound" id="{6be7d397-65ea-4d58-a528-2e0b1b565f08}"/>
+    <object class="SingleSound" id="{ec1d2090-2851-4688-8758-1e8becdc2bef}"/>
+    <object class="SingleSound" id="{4a236d83-b69f-4076-b1d7-4efb2693209f}"/>
+    <object class="SingleSound" id="{06d78bb1-d7d5-41f5-bea0-bc006383da45}"/>
+    <object class="RandomizerModulator" id="{8147aff6-7270-4886-84a3-34f05d60cfd6}"/>
+    <object class="RandomizerModulator" id="{e6db643f-81a3-46ed-b9c9-b6f95984e8f8}"/>
+    <object class="SingleSound" id="{808c0822-3001-4c95-8afb-8528eeacc65c}"/>
+    <object class="SingleSound" id="{d318c6f9-e238-46ab-a44b-b1a51862105b}"/>
+    <object class="SingleSound" id="{25a586c5-5c09-4b7b-be9d-dddbfc9a71d5}"/>
+    <object class="SingleSound" id="{7ab52860-11d2-4073-a930-00020cfca4eb}"/>
+    <object class="SingleSound" id="{89e9ec60-6ba5-470e-b956-b0276490894a}"/>
     <object class="MixerBusEffectChain" id="{771279ea-9e5a-4df4-b218-fce18d610244}"/>
     <object class="MixerBusPanner" id="{888717b9-867c-4929-80b6-796cb10a6c2d}"/>
     <object class="MixerBusFader" id="{3e1b0689-cf41-41a7-bb93-d52928308670}"/>

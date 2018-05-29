@@ -47,6 +47,11 @@
             <value>true</value>
         </property>
     </object>
+    <object class="MultiSound" id="{f3375cfb-5a84-4bdb-9a89-80f6c5899ba0}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{1f330810-41ee-46ed-bd2e-23a4ee213476}"/>
     <object class="MixerBusEffectChain" id="{92749eb8-a253-4294-9264-2a83fc32463c}"/>
     <object class="MixerBusPanner" id="{ba9f2634-5bea-430d-8e49-a310bc97b55d}"/>
@@ -58,6 +63,9 @@
     <object class="SingleSound" id="{c39075af-38d7-4b04-8dfa-ac708ca435d7}"/>
     <object class="SingleSound" id="{c38920cc-2704-42b5-8169-e641fd6d52d1}"/>
     <object class="SingleSound" id="{4f285d4f-daf4-4be7-b422-187557ef67d1}"/>
+    <object class="SingleSound" id="{dfffbfc2-4085-433c-b7e9-ab89a2cca33b}"/>
+    <object class="SingleSound" id="{922518f4-6bdd-49a8-b20e-9f0987acbb25}"/>
+    <object class="SingleSound" id="{318410e0-b295-4640-8f52-79997b0c609d}"/>
     <object class="MixerBusEffectChain" id="{c0c8075e-6c0a-4ce3-b51f-823946b9833a}"/>
     <object class="MixerBusPanner" id="{09ec8911-c9a2-45fd-8725-219855e2abb5}"/>
     <object class="MixerBusFader" id="{f848be9c-2319-4d01-993b-470f78fd0484}"/>

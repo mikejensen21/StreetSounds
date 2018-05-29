@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{02fd35ac-3ab1-4c30-ac87-3e62f236c5c7}">
         <relationship name="selectables">
-            <destination>{d38d6bd2-dbe5-4a91-91c5-9d1b7e642eaa}</destination>
+            <destination>{5a32a5b5-3f26-4829-ab1b-20695e71a1e9}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{bbbd82c0-3411-0f2f-08c2-d904e61b7784}</destination>
+            <destination>{e2a7abb8-0b5d-4a38-8e7c-50e3f2091e35}</destination>
         </relationship>
     </object>
     <object class="MasterTrack" id="{b423f66f-5a22-400a-8258-f0a47987d011}"/>
@@ -27,6 +27,11 @@
             <value>0.0076511094108645756</value>
         </property>
     </object>
+    <object class="ParameterProxy" id="{e2a7abb8-0b5d-4a38-8e7c-50e3f2091e35}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0076511094108645756</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{1b0401ad-e82c-4e09-b91d-e862bdaefd31}">
         <relationship name="input">
             <destination>{3ea59745-991c-414f-b198-7a3fc6f2a233}</destination>
@@ -36,6 +41,26 @@
     <object class="MixerBusPanner" id="{882fd0fe-7e2a-4bfe-8e9b-ed026c3af700}"/>
     <object class="AutomationTrack" id="{6897ccb2-e10d-022d-2ddd-f926811dc433}"/>
     <object class="MultiSound" id="{d38d6bd2-dbe5-4a91-91c5-9d1b7e642eaa}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{d30ca44c-ed8a-4497-b002-4982728d827d}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{5a32a5b5-3f26-4829-ab1b-20695e71a1e9}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{3a0cbc24-8354-4be2-a7fc-5895cabaf8d9}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{cc9ccb97-b959-4cc4-a5f7-61dce726dcc4}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
@@ -54,6 +79,25 @@
     <object class="SingleSound" id="{f89289b4-7b22-4ced-af38-491acfadb4de}"/>
     <object class="SingleSound" id="{1bf27c6f-53e4-4235-93cf-ea32e8ed1adf}"/>
     <object class="SingleSound" id="{92f9507a-6f30-43c8-87d0-6124f53a9437}"/>
+    <object class="RandomizerModulator" id="{dd9b0ddd-21e9-4a6d-a15a-68c5795cadf2}"/>
+    <object class="RandomizerModulator" id="{c6d4dac2-e863-447b-88fb-a5715a2b7a65}"/>
+    <object class="SingleSound" id="{3585220c-1b70-44be-8f4a-57811c9c8842}"/>
+    <object class="SingleSound" id="{5cdc05b1-bdc7-4ab3-a797-045c0c11e3dc}"/>
+    <object class="SingleSound" id="{7cc7f733-36a1-4fd6-98f2-af8b6e85b174}"/>
+    <object class="SingleSound" id="{3b5c63a2-ef2f-4a1e-82f1-4f0824fd870d}"/>
+    <object class="SingleSound" id="{3c1902e2-ef06-4c12-83bf-1538d5f8f30d}"/>
+    <object class="SingleSound" id="{1d600ad8-8892-4a2d-ad45-e1e90db0a4f9}"/>
+    <object class="SingleSound" id="{f7d48b7f-e296-4556-93c4-f0148a38ea06}"/>
+    <object class="SingleSound" id="{5202a290-9c18-497b-99af-2c1bf803681b}"/>
+    <object class="SingleSound" id="{8ade879f-13fb-47b4-b1a2-54817d7ea81e}"/>
+    <object class="RandomizerModulator" id="{7c03617a-24cd-4a70-82f4-e6657cf498d3}"/>
+    <object class="RandomizerModulator" id="{f6f51341-2251-4d29-b3dc-ec48e257632f}"/>
+    <object class="SingleSound" id="{3aab8a60-b23b-467d-b5af-bf4ddea9024b}"/>
+    <object class="SingleSound" id="{e1be3066-500b-4553-b084-744808b613fb}"/>
+    <object class="SingleSound" id="{4c32b5b2-8f35-44d4-982b-e489ed1a3a5d}"/>
+    <object class="SingleSound" id="{d1858e60-bf4c-4ad1-822b-db004b36cb5d}"/>
+    <object class="SingleSound" id="{664f0be6-ccb1-44d3-89b7-9986e2f815a5}"/>
+    <object class="SingleSound" id="{c7ad0758-4af0-4bfa-b79c-c0276397a26a}"/>
     <object class="MixerBusEffectChain" id="{fc43fb77-c71f-4093-b0a8-b0b5cf62dbd1}"/>
     <object class="MixerBusPanner" id="{6f153581-04ce-44a3-bbc6-263d269b0fad}"/>
     <object class="MixerBusFader" id="{8fca01f8-3673-4f39-82c9-822eea0ed945}"/>
