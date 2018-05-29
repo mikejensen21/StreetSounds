@@ -105,7 +105,7 @@
     </object>
     <object class="MultiSound" id="{d38d6bd2-dbe5-4a91-91c5-9d1b7e642eaa}">
         <property name="length">
-            <value>10</value>
+            <value>1.5</value>
         </property>
         <property name="maxVoices">
             <value>1</value>

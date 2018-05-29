@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{f115ec3f-3e84-4656-9005-c7e10f85f857}">
-        <relationship name="selectables">
-            <destination>{f033ca95-2e22-4936-9de7-a27980440f7b}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}</destination>
         </relationship>
@@ -38,27 +35,27 @@
     </object>
     <object class="Timeline" id="{da468d6f-9899-45f6-b510-757a49abdf2d}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.024834437086092714</value>
+            <value>0.022953328232593728</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{96f9ecbd-632c-4625-aa49-58318427531e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.013736263736263736</value>
+            <value>0.0076511094108645756</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{163dbe17-52dd-4fac-aae3-2246dd86bbd2}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0016406890894175555</value>
+            <value>0.001530221882172915</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{72a95422-b7b1-4ea6-90e9-ee72f278a31e}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.00082034454470877774</value>
+            <value>0.00076511094108645751</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{b56d32c6-f36f-47c0-9a9c-6327b2d580fc}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0092115013644027098</value>
+            <value>0.0076511094108645756</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{7067b62d-b543-4fc2-89eb-37a6137b4737}">

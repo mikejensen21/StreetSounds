@@ -4,9 +4,6 @@
         <relationship name="selectables">
             <destination>{fb222b9f-6882-4ea8-8a4e-46d5efc1ffc7}</destination>
         </relationship>
-        <relationship name="uiLastParameterSelection">
-            <destination>{6b015fe5-859b-4e87-96df-e501cd5d5520}</destination>
-        </relationship>
     </object>
     <object class="MasterTrack" id="{95b17cdf-7cfc-48ff-acb5-8e04a4e190bc}"/>
     <object class="MixerInput" id="{b87e6877-87a7-4819-a4b9-8009e64d7d2e}"/>

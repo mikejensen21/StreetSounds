@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="Event" id="{0d127ae0-9e16-47e0-94a3-f8a654f91c17}">
-        <relationship name="selectables">
-            <destination>{f8eac002-6761-4f3c-8c39-83ba2a505ec8}</destination>
-        </relationship>
-        <relationship name="uiLastParameterSelection">
-            <destination>{73ce43ce-3e67-4591-9edb-555271e83f39}</destination>
-        </relationship>
-    </object>
+    <object class="Event" id="{0d127ae0-9e16-47e0-94a3-f8a654f91c17}"/>
     <object class="MasterTrack" id="{a210f858-cabe-4481-a2e6-3db7e45b65c5}"/>
     <object class="MixerInput" id="{e59f9e7b-c57c-4df5-b252-b592b9346008}"/>
     <object class="EventAutomatableProperties" id="{cb54d626-f0d8-4a0f-b169-497b284c7115}"/>
