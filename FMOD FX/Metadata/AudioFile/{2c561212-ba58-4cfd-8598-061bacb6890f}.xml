@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{2c561212-ba58-4cfd-8598-061bacb6890f}">
+        <property name="assetPath">
+            <value>grass_tire_Squeaks [2018-07-19 161451].wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.54585034013605438</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{47d2c2e4-ae90-4a7a-b9eb-1d723b7f342d}</destination>
+        </relationship>
+    </object>
+</objects>

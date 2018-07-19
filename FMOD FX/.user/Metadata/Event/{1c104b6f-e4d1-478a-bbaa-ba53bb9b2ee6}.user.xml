@@ -12,11 +12,7 @@
     <object class="MixerInput" id="{6d762e55-cddb-47ce-8ee5-ae83dba5462c}"/>
     <object class="EventAutomatableProperties" id="{202c55fc-6258-4f5c-96c3-e8649aa1b6c9}"/>
     <object class="MarkerTrack" id="{639e40e6-60c1-4940-9fcd-cc3f761cd37a}"/>
-    <object class="GroupTrack" id="{f4ed60e1-60b1-48a0-9dd4-91259c989622}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{f4ed60e1-60b1-48a0-9dd4-91259c989622}"/>
     <object class="Timeline" id="{0fb792f4-b26d-4e7e-8fc3-afdeecaeaad0}">
         <property name="uiLastRulerScaleRatio">
             <value>0.022953328232593728</value>
@@ -42,6 +38,7 @@
     <object class="AutomationTrack" id="{2fe5069f-6f5a-08f9-1407-fd4fce4ffe91}"/>
     <object class="AutomationTrack" id="{59e7d171-5cba-0cb9-275f-e69b1e768ff7}"/>
     <object class="AutomationTrack" id="{dd8badbf-c2b2-48d0-b655-c10adc9112f8}"/>
+    <object class="AutomationTrack" id="{876e7ad6-13c3-4b70-a20e-e8886ad6b73e}"/>
     <object class="MultiSound" id="{5bc89132-1f34-4364-a507-fdc449e8f4e3}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
@@ -53,6 +50,9 @@
         </property>
     </object>
     <object class="MultiSound" id="{004f9d65-47d9-40e9-b66b-a2ce85209343}">
+        <property name="uiModulationDrawerVisible">
+            <value>false</value>
+        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
@@ -81,6 +81,11 @@
     <object class="SingleSound" id="{4a236d83-b69f-4076-b1d7-4efb2693209f}"/>
     <object class="SingleSound" id="{06d78bb1-d7d5-41f5-bea0-bc006383da45}"/>
     <object class="RandomizerModulator" id="{8147aff6-7270-4886-84a3-34f05d60cfd6}"/>
+    <object class="SingleSound" id="{afe29c8f-ad33-4bfc-a1c3-0d3216bba30c}"/>
+    <object class="SingleSound" id="{7867e706-6175-4ced-a2ff-8b500cec21e0}"/>
+    <object class="SingleSound" id="{b789b07b-a491-4015-8c9a-1a04d84ef428}"/>
+    <object class="SingleSound" id="{3dc129ec-de61-4f24-9c7f-fe792a233e95}"/>
+    <object class="SingleSound" id="{ecf2d65c-38ef-4fab-801e-c2780d5b9ee5}"/>
     <object class="RandomizerModulator" id="{e6db643f-81a3-46ed-b9c9-b6f95984e8f8}"/>
     <object class="SingleSound" id="{808c0822-3001-4c95-8afb-8528eeacc65c}"/>
     <object class="SingleSound" id="{d318c6f9-e238-46ab-a44b-b1a51862105b}"/>
