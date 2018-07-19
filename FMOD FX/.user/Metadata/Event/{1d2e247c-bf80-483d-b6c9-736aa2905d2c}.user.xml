@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{1d2e247c-bf80-483d-b6c9-736aa2905d2c}">
+        <relationship name="selectables">
+            <destination>{3ca2dee9-def2-44d4-8ec0-308fb64d05d3}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{bed49a5c-8af6-4cc0-9eb5-a22462fa6118}</destination>
         </relationship>
@@ -43,6 +46,11 @@
         </property>
     </object>
     <object class="MultiSound" id="{d90e139d-a407-4797-92ee-066e1ba2da48}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{3c492efa-a517-4149-92c8-72bd53d55bf0}">
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

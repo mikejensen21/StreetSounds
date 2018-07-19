@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{de8fd770-3ccd-4d12-802f-a4a4623a17a0}">
-        <relationship name="selectables">
-            <destination>{581f330d-9bfd-4acf-b109-30a746d22454}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{5873eb56-6850-4714-826b-1fa25849a663}</destination>
         </relationship>
@@ -43,7 +40,7 @@
     </object>
     <object class="ParameterProxy" id="{ee88c3a4-92da-01bb-180a-130b2d2d99b5}">
         <property name="uiLastRulerScaleRatio">
-            <value>0.0076511094108645756</value>
+            <value>0.013736263736263736</value>
         </property>
     </object>
     <object class="ParameterProxy" id="{4a311cf0-f31e-087b-3deb-8bdcaee0b3aa}">
@@ -117,6 +114,9 @@
     <object class="AutomationTrack" id="{0aa12b76-8661-4892-9271-1a42d879fd56}"/>
     <object class="AutomationTrack" id="{8cfd55ee-0e24-4e20-bec3-e2caf6d61226}"/>
     <object class="SingleSound" id="{581f330d-9bfd-4acf-b109-30a746d22454}">
+        <property name="uiModulationDrawerVisible">
+            <value>false</value>
+        </property>
         <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>

@@ -18,11 +18,7 @@
             <value>false</value>
         </property>
     </object>
-    <object class="GroupTrack" id="{616d238c-ef2d-4727-8d11-b6dea81914be}">
-        <property name="uiAutomationTracksVisible">
-            <value>false</value>
-        </property>
-    </object>
+    <object class="GroupTrack" id="{616d238c-ef2d-4727-8d11-b6dea81914be}"/>
     <object class="GroupTrack" id="{7c9d12a2-3b90-4e07-9d82-d91821c97c13}">
         <property name="uiAutomationTracksVisible">
             <value>false</value>

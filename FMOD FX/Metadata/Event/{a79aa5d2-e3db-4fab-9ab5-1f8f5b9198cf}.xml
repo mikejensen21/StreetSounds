@@ -106,6 +106,9 @@
     </object>
     <object class="MixerBusPanner" id="{cba75b12-a958-4daa-955b-767248ef0f1b}"/>
     <object class="MultiSound" id="{aa4168d2-4e60-4a4c-a1ba-af1374b0425a}">
+        <property name="length">
+            <value>0.5</value>
+        </property>
         <property name="maxVoices">
             <value>2</value>
         </property>
@@ -125,7 +128,7 @@
     </object>
     <object class="MultiSound" id="{18ac56d8-f685-4fc4-89b9-484b87169a5e}">
         <property name="start">
-            <value>2</value>
+            <value>2.5</value>
         </property>
         <property name="maxVoices">
             <value>2</value>
@@ -145,7 +148,7 @@
     </object>
     <object class="MultiSound" id="{f492e98e-cedf-460c-9113-d105d4898ccc}">
         <property name="start">
-            <value>1</value>
+            <value>1.5</value>
         </property>
         <property name="maxVoices">
             <value>2</value>
